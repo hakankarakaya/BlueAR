@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		YCJZ3+LPwtkrT/gCR0feD70+6FM=
+		bLLHGUBXXgCgg00bfSpGrMGDZyg=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -195,7 +195,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		y+2vMnWOPP+7EfCg4TCPk6Q0IuU=
+		CvisVaQ9D+GRYv5oPeCYFnsykpI=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -208,6 +208,30 @@
 		<key>MaterialIcons.ttf</key>
 		<data>
 		/AXeMSNOAJD33cKM4bI69AJssdo=
+		</data>
+		<key>MobileNet.mlmodelc/coremldata.bin</key>
+		<data>
+		UDfSAnlKdROZxShD1pXQFs9PTjY=
+		</data>
+		<key>MobileNet.mlmodelc/model.espresso.net</key>
+		<data>
+		79q5IPgcCcDkOLw0KkIg7XSdCTU=
+		</data>
+		<key>MobileNet.mlmodelc/model.espresso.shape</key>
+		<data>
+		7yPLq/xuwaw7uRLIJfyr3jZf/0E=
+		</data>
+		<key>MobileNet.mlmodelc/model.espresso.weights</key>
+		<data>
+		K7275mTncrnElDO1oqvl2qQJDGI=
+		</data>
+		<key>MobileNet.mlmodelc/model/coremldata.bin</key>
+		<data>
+		kd+Y1+9SV+XSbRhX14cHGiy4WaE=
+		</data>
+		<key>MobileNet.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<data>
+		3oqEe/+MND1puFOiFebud17y75Y=
 		</data>
 		<key>Octicons.ttf</key>
 		<data>
@@ -223,11 +247,11 @@
 		</data>
 		<key>PlugIns/BlueARTests.xctest.dSYM/Contents/Resources/DWARF/BlueARTests</key>
 		<data>
-		SJkZLuuueWlo+fTZtxSr+9VujK0=
+		U5AAyK85CjSjij0c52wFS+aNfLg=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<data>
-		c0T4y5sii57cpfP5S2dj1ABJDFQ=
+		OJlodY9gGMnkxUARP+xJaDQtAqs=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
 		<data>
@@ -239,7 +263,7 @@
 		</data>
 		<key>ScanView.nib</key>
 		<data>
-		KHJRPgkinqK3u2c+Gl1e1vq1lus=
+		tJ0tI/wLXX3mWIDXLXgZI1sijkY=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -251,7 +275,7 @@
 		</data>
 		<key>art.scnassets/.DS_Store</key>
 		<data>
-		txBLj1x80IckEW2tkBTuPWX/zI0=
+		2fpd7NvQNL5BgxOABJ2uizae2NU=
 		</data>
 		<key>art.scnassets/bottle.dae</key>
 		<data>
@@ -367,7 +391,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6uM5emiUEmR0MwTecHJDcwP7h5jE+YcmLujsN+Ihgfg=
+			C6NwttNLxA5AxAKWWUQ7719GBC/X0sLb8K+ZM0TwUDU=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -701,6 +725,48 @@
 			t/Sjq1YgSPKN0fppFgG8QzY6YdD4dtFtgxbFLk8y1pY=
 			</data>
 		</dict>
+		<key>MobileNet.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nKtS7TTg6lHvOnZqHxK9jO6NQu6JnITM15feYZTBKl4=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/model.espresso.net</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pX3jOAOs71i/y7vsNLAZk7no0sFfyrdfhZY6mJawUn0=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/model.espresso.shape</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/PzKBQMBvzWpWY2lex9RfH+wJSEEj4BEy+1/g6mtui4=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/model.espresso.weights</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+PfnwZPg/MFfKF/y90cbs30PVQQkgQabDUm/vPr5o2U=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/model/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UEc3TGk74HXFOotydIsdcsNya29Mcxjgc/NdMD99HfQ=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zmh6rfhivXdsj8GLjp+OIAiXFIVu4jOzkCpZHQ1fKSU=
+			</data>
+		</dict>
 		<key>Octicons.ttf</key>
 		<dict>
 			<key>hash2</key>
@@ -719,14 +785,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NByaDgPd/VHi9XJR+lX/aTO14jFGjLM/3jVvsaG6ajQ=
+			2vrkXlYyQJsUa+ICNejmpOt/8Y5mJp9fmMRYQcA9ozU=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VWHYApJHl1s/f4DZ8gEnxn6GeacKqwgYGaic3IqgLW4=
+			SbLcDDIQJxqe8d7kXnG/Vep2XVPT1R+lIxtMw0t9OOU=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
@@ -747,7 +813,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EHZYjUaQ+fAXGY9Zby0WCrMBQBPjxvInkjs3daMWAXg=
+			jxIjiAYzZWSgqrdlWYNax0AfteHGcxYmJP+86UUHqmg=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>

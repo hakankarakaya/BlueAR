@@ -22,13 +22,10 @@
 		2E1A656B2319532C00D17134 /* ScanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1A65692319532C00D17134 /* ScanView.xib */; };
 		2E1A656D2319551800D17134 /* ScanViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A656C2319551800D17134 /* ScanViewManager.swift */; };
 		2E1A656F2319553000D17134 /* ScanViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A656E2319553000D17134 /* ScanViewManager.m */; };
-		2E952F5923192524002A3A10 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E952F5823192524002A3A10 /* FirstView.swift */; };
-		2E952F5D231925BB002A3A10 /* FirstViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E952F5C231925BB002A3A10 /* FirstViewManager.m */; };
-		2E952F5F23193C06002A3A10 /* FirstViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E952F5E23193C06002A3A10 /* FirstViewManager.swift */; };
-		2E952F6323193D59002A3A10 /* FirstClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E952F6223193D59002A3A10 /* FirstClass.swift */; };
-		2E952F6523193D68002A3A10 /* FirstClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E952F6423193D68002A3A10 /* FirstClass.m */; };
+		2E96F57F231ACEB70064CBC3 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E96F57E231ACEB60064CBC3 /* FontAwesome.ttf */; };
+		2E96F580231B35110064CBC3 /* HandModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2EB66E1D231973E3006CC514 /* HandModel.mlmodel */; };
+		2E96F581231B35140064CBC3 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2EB66E232319786E006CC514 /* MobileNet.mlmodel */; };
 		2EB66E1C23195B60006CC514 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB66E1B23195B60006CC514 /* art.scnassets */; };
-		2EB66E1E231973E3006CC514 /* HandModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2EB66E1D231973E3006CC514 /* HandModel.mlmodel */; };
 		2EB66E212319784C006CC514 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB66E202319784C006CC514 /* Enums.swift */; };
 		32F8A6F2D24E9D6A3D0D1A81 /* libPods-BlueAR-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E952F1D23191B38002A3A10 /* libPods-BlueAR-tvOSTests.a */; };
 		4CE3CD4EF67CE0DF2EC3FBA5 /* libPods-BlueARTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C0D33C6E3B54665B873F191 /* libPods-BlueARTests.a */; };
@@ -102,11 +99,7 @@
 		2E952F2E23191B38002A3A10 /* libReact-RCTVibration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTVibration.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E952F2F23191B38002A3A10 /* libReact-RCTWebSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-RCTWebSocket.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E952F3023191B38002A3A10 /* libyoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libyoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E952F5823192524002A3A10 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
-		2E952F5C231925BB002A3A10 /* FirstViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewManager.m; sourceTree = "<group>"; };
-		2E952F5E23193C06002A3A10 /* FirstViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewManager.swift; sourceTree = "<group>"; };
-		2E952F6223193D59002A3A10 /* FirstClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstClass.swift; sourceTree = "<group>"; };
-		2E952F6423193D68002A3A10 /* FirstClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstClass.m; sourceTree = "<group>"; };
+		2E96F57E231ACEB60064CBC3 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		2EB66E1B23195B60006CC514 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		2EB66E1D231973E3006CC514 /* HandModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = HandModel.mlmodel; sourceTree = "<group>"; };
 		2EB66E202319784C006CC514 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
@@ -201,6 +194,7 @@
 		13B07FAE1A68108700A75B9A /* BlueAR */ = {
 			isa = PBXGroup;
 			children = (
+				2E96F57E231ACEB60064CBC3 /* FontAwesome.ttf */,
 				2EB66E2223197857006CC514 /* CoreMLModels */,
 				2EB66E2423197889006CC514 /* Resources */,
 				2EB66E1F2319783F006CC514 /* Utils */,
@@ -280,9 +274,6 @@
 		2E952F6023193CE2002A3A10 /* NativeViews */ = {
 			isa = PBXGroup;
 			children = (
-				2E952F5823192524002A3A10 /* FirstView.swift */,
-				2E952F5E23193C06002A3A10 /* FirstViewManager.swift */,
-				2E952F5C231925BB002A3A10 /* FirstViewManager.m */,
 				2E1A65682319532C00D17134 /* ScanView.swift */,
 				2E1A65692319532C00D17134 /* ScanView.xib */,
 				2E1A656C2319551800D17134 /* ScanViewManager.swift */,
@@ -294,8 +285,6 @@
 		2E952F6123193D2C002A3A10 /* NativeClasses */ = {
 			isa = PBXGroup;
 			children = (
-				2E952F6223193D59002A3A10 /* FirstClass.swift */,
-				2E952F6423193D68002A3A10 /* FirstClass.m */,
 			);
 			name = NativeClasses;
 			sourceTree = "<group>";
@@ -529,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2E96F57F231ACEB70064CBC3 /* FontAwesome.ttf in Resources */,
 				2EB66E1C23195B60006CC514 /* art.scnassets in Resources */,
 				2E1A656B2319532C00D17134 /* ScanView.xib in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
@@ -722,18 +712,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E952F5D231925BB002A3A10 /* FirstViewManager.m in Sources */,
-				2E952F5923192524002A3A10 /* FirstView.swift in Sources */,
+				2E96F581231B35140064CBC3 /* MobileNet.mlmodel in Sources */,
 				2E1A656F2319553000D17134 /* ScanViewManager.m in Sources */,
 				2E1A656D2319551800D17134 /* ScanViewManager.swift in Sources */,
-				2E952F6523193D68002A3A10 /* FirstClass.m in Sources */,
-				2E952F5F23193C06002A3A10 /* FirstViewManager.swift in Sources */,
 				2EB66E212319784C006CC514 /* Enums.swift in Sources */,
 				2E1A656A2319532C00D17134 /* ScanView.swift in Sources */,
+				2E96F580231B35110064CBC3 /* HandModel.mlmodel in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				2EB66E1E231973E3006CC514 /* HandModel.mlmodel in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
-				2E952F6323193D59002A3A10 /* FirstClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

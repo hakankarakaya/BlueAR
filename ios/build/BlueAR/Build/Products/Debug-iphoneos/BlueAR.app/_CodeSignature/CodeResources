@@ -6,7 +6,11 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		41ahsMeeNUFZR5kwJ/vb2fMZT8g=
+		0qubcEF/ASZLLbLLNWGTlZE8nMQ=
+		</data>
+		<key>FontAwesome.ttf</key>
+		<data>
+		E7HqtlqYPHpzvHmXxHnWaUP3xss=
 		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
 		<data>
@@ -14,7 +18,7 @@
 		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
 		<data>
-		kFI2fn0+7DQMPTiO7BflLEnnnmM=
+		1v84xl7PgU++46KXhL+yuzTKwnQ=
 		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		txFsUGSv56yOCBX78RRggjH/wIg=
+		izQqVZa+74AuYgbAoPoC0m0OTFc=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -51,11 +55,11 @@
 		</data>
 		<key>Frameworks/libXCTestBundleInject.dylib</key>
 		<data>
-		w8xS0xGqfm1h0vV/U8fW3spP7Zk=
+		dj8pREVRW/EPDL1FXGJV32ETHuU=
 		</data>
 		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
 		<data>
-		n8veMiqF3yLZLpmWsw/j0jTjrto=
+		dxlpxHVOivCYr44MOD2JkmuUl+0=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -155,7 +159,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0oBPeElDaCUX6PP1m/wZMznR5TU=
+		c5IU+Y94ozAyLSScxe8f+NzhnVQ=
+		</data>
+		<key>MobileNet.mlmodelc/coremldata.bin</key>
+		<data>
+		UDfSAnlKdROZxShD1pXQFs9PTjY=
+		</data>
+		<key>MobileNet.mlmodelc/model.espresso.net</key>
+		<data>
+		79q5IPgcCcDkOLw0KkIg7XSdCTU=
+		</data>
+		<key>MobileNet.mlmodelc/model.espresso.shape</key>
+		<data>
+		7yPLq/xuwaw7uRLIJfyr3jZf/0E=
+		</data>
+		<key>MobileNet.mlmodelc/model.espresso.weights</key>
+		<data>
+		K7275mTncrnElDO1oqvl2qQJDGI=
+		</data>
+		<key>MobileNet.mlmodelc/model/coremldata.bin</key>
+		<data>
+		kd+Y1+9SV+XSbRhX14cHGiy4WaE=
+		</data>
+		<key>MobileNet.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<data>
+		3oqEe/+MND1puFOiFebud17y75Y=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -167,11 +195,11 @@
 		</data>
 		<key>PlugIns/BlueARTests.xctest.dSYM/Contents/Resources/DWARF/BlueARTests</key>
 		<data>
-		PUxstfFvoZ6FWdOFQDwE2pX0AiE=
+		kvmM+OgFlPCe7/lLzW2s8fsqt4Y=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<data>
-		9NGBbvrqPDjWAoV+AvAcnDxHXIg=
+		9vk1PTuJSSZe2hRKv6b/fVPKpAA=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
 		<data>
@@ -183,11 +211,11 @@
 		</data>
 		<key>ScanView.nib</key>
 		<data>
-		XGcnSnyTFqR748urKyI5m04IKDo=
+		1h/sTRQaDMPa0cqWSAEb/Tc5a2E=
 		</data>
 		<key>art.scnassets/.DS_Store</key>
 		<data>
-		p+gpgDWOXh8K/VyuYgPmyQ6gt2g=
+		2fpd7NvQNL5BgxOABJ2uizae2NU=
 		</data>
 		<key>art.scnassets/bottle.dae</key>
 		<data>
@@ -293,6 +321,14 @@
 		<data>
 		SD5vJQ7ub8JaYnRY7wDdE4sjrzc=
 		</data>
+		<key>assets/node_modules/native-base/dist/src/basic/Icon/NBIcons.json</key>
+		<data>
+		/t6Sy8btE5vNkX+AzBGHxoesa+w=
+		</data>
+		<key>assets/node_modules/react-native-vector-icons/glyphmaps/AntDesign.json</key>
+		<data>
+		PoJveci96zTSptK+VgCJdZJER5A=
+		</data>
 		<key>assets/node_modules/react-native-vector-icons/glyphmaps/Entypo.json</key>
 		<data>
 		vP+/QMl+LCeJCh5NxZt7W2fRTkk=
@@ -309,6 +345,14 @@
 		<data>
 		ZcNOPzPLU5pQFhW2jx8wZYjmNpI=
 		</data>
+		<key>assets/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Free.json</key>
+		<data>
+		foIpBGgQTMRRvPTNobklKlTPvPc=
+		</data>
+		<key>assets/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Free_meta.json</key>
+		<data>
+		wlu3LGFperwdj0DFidv0s9z+2fg=
+		</data>
 		<key>assets/node_modules/react-native-vector-icons/glyphmaps/Foundation.json</key>
 		<data>
 		Ai42gALv1dnRb0630jFu/ei9k7Y=
@@ -319,7 +363,7 @@
 		</data>
 		<key>assets/node_modules/react-native-vector-icons/glyphmaps/MaterialCommunityIcons.json</key>
 		<data>
-		UtZ/hlMGS8Gx41Twxu0k8FOdoYA=
+		gwS9A+qnjarLXwwL8Ihqx9vlV+U=
 		</data>
 		<key>assets/node_modules/react-native-vector-icons/glyphmaps/MaterialIcons.json</key>
 		<data>
@@ -347,7 +391,7 @@
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		pCRo3+0XMRLUB9+ik5folGxYkQo=
+		zBtvUdi/9zMT3FqJVbAwaKZ9ajY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -356,7 +400,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gAke51o8iyJLrlrYVbkhe2cF21WHtW6z4lLlqRaqgw0=
+			R4TruFcDc0uTpPDSsJZLmXYd4t7p+EmD7AU2N9xpUpE=
+			</data>
+		</dict>
+		<key>FontAwesome.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=
 			</data>
 		</dict>
 		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
@@ -370,7 +421,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PVUy0ccSVdP3jHY+JHYnJiLKgKcYhP3XLMawuh5cdcQ=
+			QNVZWQpdjNqL20+wVi45jRcIwmIj2+n7gqbySM79KHI=
 			</data>
 		</dict>
 		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
@@ -398,7 +449,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nEL77nm5txrRUjRjRw56Ezp4ZsBArPc7WQFUG9LwwX4=
+			aKun5iAg+CAIjWuUshIRi39Az5KpAe41UlYG8J+XRHo=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
@@ -428,14 +479,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dVGI3inAl/XILao+GiA7DpDZ71ES2pHg/7be9QOA3wM=
+			rVjN15QJKcknvdyG/utonD+jPogfBGafLxbMk4nv1wc=
 			</data>
 		</dict>
 		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EpH1d+9XFhLg06DeriR83sw6TSCjOWMZOk2FgN3i/I0=
+			kPMQm2Cpe6xjrcS2scPmEQPyqbLN62pQeTCG/YuEnvc=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -606,6 +657,48 @@
 			Zmh6rfhivXdsj8GLjp+OIAiXFIVu4jOzkCpZHQ1fKSU=
 			</data>
 		</dict>
+		<key>MobileNet.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nKtS7TTg6lHvOnZqHxK9jO6NQu6JnITM15feYZTBKl4=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/model.espresso.net</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pX3jOAOs71i/y7vsNLAZk7no0sFfyrdfhZY6mJawUn0=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/model.espresso.shape</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/PzKBQMBvzWpWY2lex9RfH+wJSEEj4BEy+1/g6mtui4=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/model.espresso.weights</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+PfnwZPg/MFfKF/y90cbs30PVQQkgQabDUm/vPr5o2U=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/model/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UEc3TGk74HXFOotydIsdcsNya29Mcxjgc/NdMD99HfQ=
+			</data>
+		</dict>
+		<key>MobileNet.mlmodelc/neural_network_optionals/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zmh6rfhivXdsj8GLjp+OIAiXFIVu4jOzkCpZHQ1fKSU=
+			</data>
+		</dict>
 		<key>PlugIns/BlueARTests.xctest.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -617,14 +710,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nb72kZGzmI4r8PdCgCTE8NUqXGzn8p1WDS8XMWmL59Q=
+			7hHGwdIARg/QCWlnxDqzCG4ZbomAMIrTqMqTj1X874A=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Fd8ZQMGiSiXK2Q2VPD/NgbYkQhm5c7eq01XUOml5kIQ=
+			g2S8XK/aRmkqZ69Ksz0UpMR9Z1lAh8OJLCopgPdRBwU=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
@@ -645,7 +738,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sr5k2tB8wlRBzwX4pQUC+in3RmiEzrZ1tisZIFnbj0g=
+			7Jpz54TmkPIsmOYY5TaFcKfzWdRWKWWJphGb9lzhKmQ=
 			</data>
 		</dict>
 		<key>art.scnassets/bottle.dae</key>
@@ -830,6 +923,20 @@
 			lDuSHqItS45KGqLHplMHnxdCoMj8JW6omqAgkRLa9oQ=
 			</data>
 		</dict>
+		<key>assets/node_modules/native-base/dist/src/basic/Icon/NBIcons.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hHRVSIz6QPW7citPrgzYs2QCfwtpWm+aL4dq48catgM=
+			</data>
+		</dict>
+		<key>assets/node_modules/react-native-vector-icons/glyphmaps/AntDesign.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/K4o5ABMKk56TLGP9qpNDgFn1mwlGCKdioUTnutStos=
+			</data>
+		</dict>
 		<key>assets/node_modules/react-native-vector-icons/glyphmaps/Entypo.json</key>
 		<dict>
 			<key>hash2</key>
@@ -858,6 +965,20 @@
 			l8SY1ctoXtJ8rk57TurG259sjQSsHZWLcPxtvBdp6i8=
 			</data>
 		</dict>
+		<key>assets/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Free.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a2eBZkqS0kHvj0WaDw69M/PUMa9KgyB3OVeHGbYTRoU=
+			</data>
+		</dict>
+		<key>assets/node_modules/react-native-vector-icons/glyphmaps/FontAwesome5Free_meta.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vx/9aTPRb29Hq9PFysx5QVTUcH6zgU2wLXsvpP9ugT4=
+			</data>
+		</dict>
 		<key>assets/node_modules/react-native-vector-icons/glyphmaps/Foundation.json</key>
 		<dict>
 			<key>hash2</key>
@@ -876,7 +997,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ztjdC0sh4d9TRZN8WoMl2VhQg9O2oMbmgbqeY+6qcY=
+			PIobkrEboEVLLNBdcUVjb1blzVY7MWEYsUM3fusLIYc=
 			</data>
 		</dict>
 		<key>assets/node_modules/react-native-vector-icons/glyphmaps/MaterialIcons.json</key>
@@ -925,7 +1046,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b7xRbrPu5p0MZOYJheXtsF7BC1Oi6u7M7CBmHoBMjnk=
+			SH9M0ztgvmSJJf8yoENTXTd64D8XwiogfkB3HN8Yw50=
 			</data>
 		</dict>
 	</dict>

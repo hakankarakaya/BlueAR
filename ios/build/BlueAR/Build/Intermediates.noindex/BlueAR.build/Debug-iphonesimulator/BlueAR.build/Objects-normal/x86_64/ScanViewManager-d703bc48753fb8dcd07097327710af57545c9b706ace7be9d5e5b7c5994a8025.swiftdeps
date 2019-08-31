@@ -6,8 +6,9 @@ provides-nominal:
 provides-member:
 - ["6BlueAR15ScanViewManagerC", ""]
 provides-dynamic-lookup:
+- "addCharacterAnimation"
 - "addHorizontalSurfaceModel"
-- "addPlanet"
+- "addPlanetModel"
 - "requiresMainQueueSetup"
 - "updateWallpaperTexture"
 - "view"
@@ -23,23 +24,27 @@ depends-top-level:
 - "ScanViewManager"
 - "UIView"
 depends-member:
+- !private ["So17ARSCNViewDelegateP", "addCharacterAnimation"]
 - !private ["So17ARSCNViewDelegateP", "addHorizontalSurfaceModel"]
-- !private ["So17ARSCNViewDelegateP", "addPlanet"]
+- !private ["So17ARSCNViewDelegateP", "addPlanetModel"]
 - !private ["So17ARSCNViewDelegateP", "init"]
 - !private ["So17ARSCNViewDelegateP", "updateWallpaperTexture"]
+- !private ["So17ARSessionObserverP", "addCharacterAnimation"]
 - !private ["So17ARSessionObserverP", "addHorizontalSurfaceModel"]
-- !private ["So17ARSessionObserverP", "addPlanet"]
+- !private ["So17ARSessionObserverP", "addPlanetModel"]
 - !private ["So17ARSessionObserverP", "init"]
 - !private ["So17ARSessionObserverP", "updateWallpaperTexture"]
+- !private ["So15CALayerDelegateP", "addCharacterAnimation"]
 - !private ["So15CALayerDelegateP", "addHorizontalSurfaceModel"]
-- !private ["So15CALayerDelegateP", "addPlanet"]
+- !private ["So15CALayerDelegateP", "addPlanetModel"]
 - !private ["So15CALayerDelegateP", "init"]
 - !private ["So15CALayerDelegateP", "updateWallpaperTexture"]
 - !private ["s7CVarArgP", "DispatchQueue"]
 - !private ["s7CVarArgP", "ScanView"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addCharacterAnimation"]
 - !private ["s7CVarArgP", "addHorizontalSurfaceModel"]
-- !private ["s7CVarArgP", "addPlanet"]
+- !private ["s7CVarArgP", "addPlanetModel"]
 - !private ["s7CVarArgP", "async"]
 - !private ["s7CVarArgP", "bridge"]
 - !private ["s7CVarArgP", "init"]
@@ -50,8 +55,9 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
 - !private ["s28CustomDebugStringConvertibleP", "ScanView"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addCharacterAnimation"]
 - !private ["s28CustomDebugStringConvertibleP", "addHorizontalSurfaceModel"]
-- !private ["s28CustomDebugStringConvertibleP", "addPlanet"]
+- !private ["s28CustomDebugStringConvertibleP", "addPlanetModel"]
 - !private ["s28CustomDebugStringConvertibleP", "async"]
 - !private ["s28CustomDebugStringConvertibleP", "bridge"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
@@ -64,8 +70,9 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "DispatchQueue"]
 - !private ["s23CustomStringConvertibleP", "ScanView"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addCharacterAnimation"]
 - !private ["s23CustomStringConvertibleP", "addHorizontalSurfaceModel"]
-- !private ["s23CustomStringConvertibleP", "addPlanet"]
+- !private ["s23CustomStringConvertibleP", "addPlanetModel"]
 - !private ["s23CustomStringConvertibleP", "async"]
 - !private ["s23CustomStringConvertibleP", "bridge"]
 - !private ["s23CustomStringConvertibleP", "init"]
@@ -84,8 +91,9 @@ depends-member:
 - !private ["SQ", "DispatchQueue"]
 - !private ["SQ", "ScanView"]
 - ["SQ", ""]
+- !private ["SQ", "addCharacterAnimation"]
 - !private ["SQ", "addHorizontalSurfaceModel"]
-- !private ["SQ", "addPlanet"]
+- !private ["SQ", "addPlanetModel"]
 - !private ["SQ", "async"]
 - !private ["SQ", "bridge"]
 - !private ["SQ", "init"]
@@ -98,8 +106,9 @@ depends-member:
 - !private ["SH", "DispatchQueue"]
 - !private ["SH", "ScanView"]
 - ["SH", ""]
+- !private ["SH", "addCharacterAnimation"]
 - !private ["SH", "addHorizontalSurfaceModel"]
-- !private ["SH", "addPlanet"]
+- !private ["SH", "addPlanetModel"]
 - !private ["SH", "async"]
 - !private ["SH", "bridge"]
 - !private ["SH", "init"]
@@ -107,8 +116,9 @@ depends-member:
 - !private ["SH", "uiManager"]
 - !private ["SH", "updateWallpaperTexture"]
 - !private ["SH", "view"]
+- !private ["So8NSCodingP", "addCharacterAnimation"]
 - !private ["So8NSCodingP", "addHorizontalSurfaceModel"]
-- !private ["So8NSCodingP", "addPlanet"]
+- !private ["So8NSCodingP", "addPlanetModel"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "updateWallpaperTexture"]
 - ["So8NSObjectC", "Bool"]
@@ -117,8 +127,9 @@ depends-member:
 - ["So8NSObjectC", "NSString"]
 - !private ["So8NSObjectC", "ScanView"]
 - ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "addCharacterAnimation"]
 - ["So8NSObjectC", "addHorizontalSurfaceModel"]
-- ["So8NSObjectC", "addPlanet"]
+- ["So8NSObjectC", "addPlanetModel"]
 - !private ["So8NSObjectC", "async"]
 - !private ["So8NSObjectC", "bridge"]
 - ["So8NSObjectC", "init"]
@@ -130,8 +141,9 @@ depends-member:
 - !private ["So8NSObjectP", "DispatchQueue"]
 - !private ["So8NSObjectP", "ScanView"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addCharacterAnimation"]
 - !private ["So8NSObjectP", "addHorizontalSurfaceModel"]
-- !private ["So8NSObjectP", "addPlanet"]
+- !private ["So8NSObjectP", "addPlanetModel"]
 - !private ["So8NSObjectP", "async"]
 - !private ["So8NSObjectP", "bridge"]
 - !private ["So8NSObjectP", "init"]
@@ -150,8 +162,9 @@ depends-member:
 - !private ["So15RCTBridgeModuleP", "bridge"]
 - !private ["So15RCTBridgeModuleP", "init"]
 - !private ["So15RCTBridgeModuleP", "view"]
+- !private ["So12RCTComponentP", "addCharacterAnimation"]
 - !private ["So12RCTComponentP", "addHorizontalSurfaceModel"]
-- !private ["So12RCTComponentP", "addPlanet"]
+- !private ["So12RCTComponentP", "addPlanetModel"]
 - !private ["So12RCTComponentP", "init"]
 - !private ["So12RCTComponentP", "updateWallpaperTexture"]
 - !private ["So15RCTInvalidatingP", "uiManager"]
@@ -164,19 +177,22 @@ depends-member:
 - !private ["So14RCTViewManagerC", "ScanView"]
 - ["So14RCTViewManagerC", "UIView"]
 - ["So14RCTViewManagerC", ""]
+- ["So14RCTViewManagerC", "addCharacterAnimation"]
 - ["So14RCTViewManagerC", "addHorizontalSurfaceModel"]
-- ["So14RCTViewManagerC", "addPlanet"]
+- ["So14RCTViewManagerC", "addPlanetModel"]
 - !private ["So14RCTViewManagerC", "bridge"]
 - ["So14RCTViewManagerC", "init"]
 - ["So14RCTViewManagerC", "requiresMainQueueSetup"]
 - ["So14RCTViewManagerC", "updateWallpaperTexture"]
 - ["So14RCTViewManagerC", "view"]
+- !private ["So24SCNSceneRendererDelegateP", "addCharacterAnimation"]
 - !private ["So24SCNSceneRendererDelegateP", "addHorizontalSurfaceModel"]
-- !private ["So24SCNSceneRendererDelegateP", "addPlanet"]
+- !private ["So24SCNSceneRendererDelegateP", "addPlanetModel"]
 - !private ["So24SCNSceneRendererDelegateP", "init"]
 - !private ["So24SCNSceneRendererDelegateP", "updateWallpaperTexture"]
+- !private ["6BlueAR8ScanViewC", "addCharacterAnimation"]
 - !private ["6BlueAR8ScanViewC", "addHorizontalSurfaceModel"]
-- !private ["6BlueAR8ScanViewC", "addPlanet"]
+- !private ["6BlueAR8ScanViewC", "addPlanetModel"]
 - !private ["6BlueAR8ScanViewC", "deinit"]
 - !private ["6BlueAR8ScanViewC", "init"]
 - !private ["6BlueAR8ScanViewC", "updateWallpaperTexture"]
@@ -186,8 +202,9 @@ depends-member:
 - ["6BlueAR15ScanViewManagerC", "NSString"]
 - !private ["6BlueAR15ScanViewManagerC", "ScanView"]
 - ["6BlueAR15ScanViewManagerC", "UIView"]
+- ["6BlueAR15ScanViewManagerC", "addCharacterAnimation"]
 - ["6BlueAR15ScanViewManagerC", "addHorizontalSurfaceModel"]
-- ["6BlueAR15ScanViewManagerC", "addPlanet"]
+- ["6BlueAR15ScanViewManagerC", "addPlanetModel"]
 - !private ["6BlueAR15ScanViewManagerC", "bridge"]
 - ["6BlueAR15ScanViewManagerC", "deinit"]
 - ["6BlueAR15ScanViewManagerC", "init"]
@@ -196,71 +213,87 @@ depends-member:
 - ["6BlueAR15ScanViewManagerC", "view"]
 - !private ["7Combine9SchedulerP", "async"]
 - !private ["7Combine9SchedulerP", "main"]
+- !private ["So29UIAccessibilityIdentificationP", "addCharacterAnimation"]
 - !private ["So29UIAccessibilityIdentificationP", "addHorizontalSurfaceModel"]
-- !private ["So29UIAccessibilityIdentificationP", "addPlanet"]
+- !private ["So29UIAccessibilityIdentificationP", "addPlanetModel"]
 - !private ["So29UIAccessibilityIdentificationP", "init"]
 - !private ["So29UIAccessibilityIdentificationP", "updateWallpaperTexture"]
+- !private ["So12UIAppearanceP", "addCharacterAnimation"]
 - !private ["So12UIAppearanceP", "addHorizontalSurfaceModel"]
-- !private ["So12UIAppearanceP", "addPlanet"]
+- !private ["So12UIAppearanceP", "addPlanetModel"]
 - !private ["So12UIAppearanceP", "init"]
 - !private ["So12UIAppearanceP", "updateWallpaperTexture"]
+- !private ["So21UIAppearanceContainerP", "addCharacterAnimation"]
 - !private ["So21UIAppearanceContainerP", "addHorizontalSurfaceModel"]
-- !private ["So21UIAppearanceContainerP", "addPlanet"]
+- !private ["So21UIAppearanceContainerP", "addPlanetModel"]
 - !private ["So21UIAppearanceContainerP", "init"]
 - !private ["So21UIAppearanceContainerP", "updateWallpaperTexture"]
+- !private ["So17UICoordinateSpaceP", "addCharacterAnimation"]
 - !private ["So17UICoordinateSpaceP", "addHorizontalSurfaceModel"]
-- !private ["So17UICoordinateSpaceP", "addPlanet"]
+- !private ["So17UICoordinateSpaceP", "addPlanetModel"]
 - !private ["So17UICoordinateSpaceP", "init"]
 - !private ["So17UICoordinateSpaceP", "updateWallpaperTexture"]
+- !private ["So13UIDynamicItemP", "addCharacterAnimation"]
 - !private ["So13UIDynamicItemP", "addHorizontalSurfaceModel"]
-- !private ["So13UIDynamicItemP", "addPlanet"]
+- !private ["So13UIDynamicItemP", "addPlanetModel"]
 - !private ["So13UIDynamicItemP", "init"]
 - !private ["So13UIDynamicItemP", "updateWallpaperTexture"]
+- !private ["So18UIFocusEnvironmentP", "addCharacterAnimation"]
 - !private ["So18UIFocusEnvironmentP", "addHorizontalSurfaceModel"]
-- !private ["So18UIFocusEnvironmentP", "addPlanet"]
+- !private ["So18UIFocusEnvironmentP", "addPlanetModel"]
 - !private ["So18UIFocusEnvironmentP", "init"]
 - !private ["So18UIFocusEnvironmentP", "updateWallpaperTexture"]
+- !private ["So11UIFocusItemP", "addCharacterAnimation"]
 - !private ["So11UIFocusItemP", "addHorizontalSurfaceModel"]
-- !private ["So11UIFocusItemP", "addPlanet"]
+- !private ["So11UIFocusItemP", "addPlanetModel"]
 - !private ["So11UIFocusItemP", "init"]
 - !private ["So11UIFocusItemP", "updateWallpaperTexture"]
+- !private ["So20UIFocusItemContainerP", "addCharacterAnimation"]
 - !private ["So20UIFocusItemContainerP", "addHorizontalSurfaceModel"]
-- !private ["So20UIFocusItemContainerP", "addPlanet"]
+- !private ["So20UIFocusItemContainerP", "addPlanetModel"]
 - !private ["So20UIFocusItemContainerP", "init"]
 - !private ["So20UIFocusItemContainerP", "updateWallpaperTexture"]
+- !private ["So24UILargeContentViewerItemP", "addCharacterAnimation"]
 - !private ["So24UILargeContentViewerItemP", "addHorizontalSurfaceModel"]
-- !private ["So24UILargeContentViewerItemP", "addPlanet"]
+- !private ["So24UILargeContentViewerItemP", "addPlanetModel"]
 - !private ["So24UILargeContentViewerItemP", "init"]
 - !private ["So24UILargeContentViewerItemP", "updateWallpaperTexture"]
+- !private ["So30UIPasteConfigurationSupportingP", "addCharacterAnimation"]
 - !private ["So30UIPasteConfigurationSupportingP", "addHorizontalSurfaceModel"]
-- !private ["So30UIPasteConfigurationSupportingP", "addPlanet"]
+- !private ["So30UIPasteConfigurationSupportingP", "addPlanetModel"]
 - !private ["So30UIPasteConfigurationSupportingP", "init"]
 - !private ["So30UIPasteConfigurationSupportingP", "updateWallpaperTexture"]
+- !private ["So11UIResponderC", "addCharacterAnimation"]
 - !private ["So11UIResponderC", "addHorizontalSurfaceModel"]
-- !private ["So11UIResponderC", "addPlanet"]
+- !private ["So11UIResponderC", "addPlanetModel"]
 - !private ["So11UIResponderC", "init"]
 - !private ["So11UIResponderC", "updateWallpaperTexture"]
+- !private ["So30UIResponderStandardEditActionsP", "addCharacterAnimation"]
 - !private ["So30UIResponderStandardEditActionsP", "addHorizontalSurfaceModel"]
-- !private ["So30UIResponderStandardEditActionsP", "addPlanet"]
+- !private ["So30UIResponderStandardEditActionsP", "addPlanetModel"]
 - !private ["So30UIResponderStandardEditActionsP", "init"]
 - !private ["So30UIResponderStandardEditActionsP", "updateWallpaperTexture"]
+- !private ["So18UITraitEnvironmentP", "addCharacterAnimation"]
 - !private ["So18UITraitEnvironmentP", "addHorizontalSurfaceModel"]
-- !private ["So18UITraitEnvironmentP", "addPlanet"]
+- !private ["So18UITraitEnvironmentP", "addPlanetModel"]
 - !private ["So18UITraitEnvironmentP", "init"]
 - !private ["So18UITraitEnvironmentP", "updateWallpaperTexture"]
+- !private ["So23UIUserActivityRestoringP", "addCharacterAnimation"]
 - !private ["So23UIUserActivityRestoringP", "addHorizontalSurfaceModel"]
-- !private ["So23UIUserActivityRestoringP", "addPlanet"]
+- !private ["So23UIUserActivityRestoringP", "addPlanetModel"]
 - !private ["So23UIUserActivityRestoringP", "init"]
 - !private ["So23UIUserActivityRestoringP", "updateWallpaperTexture"]
+- !private ["So6UIViewC", "addCharacterAnimation"]
 - !private ["So6UIViewC", "addHorizontalSurfaceModel"]
-- !private ["So6UIViewC", "addPlanet"]
+- !private ["So6UIViewC", "addPlanetModel"]
 - !private ["So6UIViewC", "init"]
 - !private ["So6UIViewC", "updateWallpaperTexture"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "ScanView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addCharacterAnimation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "addHorizontalSurfaceModel"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "addPlanet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addPlanetModel"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bridge"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
@@ -271,8 +304,9 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DispatchQueue"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ScanView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addCharacterAnimation"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addHorizontalSurfaceModel"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addPlanet"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addPlanetModel"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "async"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bridge"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
@@ -282,8 +316,9 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
 - !private ["s21_ObjectiveCBridgeableP", "uiManager"]
 - !private ["s21_ObjectiveCBridgeableP", "view"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addCharacterAnimation"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addHorizontalSurfaceModel"]
-- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addPlanet"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "addPlanetModel"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "updateWallpaperTexture"]
 depends-nominal:
@@ -362,9 +397,31 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/SpriteKit.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreML.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Vision.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ARKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/sys/_types/_timeval32.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKVector2.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKVector3.h"
@@ -2017,4 +2074,4 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "18e6b9fdada119fb99d2d51e87ec3772"
+interface-hash: "22f6d2ac3ac0f02f1050403282eda297"

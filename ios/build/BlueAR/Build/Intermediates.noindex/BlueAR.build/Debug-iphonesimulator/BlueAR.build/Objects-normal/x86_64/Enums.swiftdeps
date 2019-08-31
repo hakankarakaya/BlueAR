@@ -1,17 +1,14 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "SurfaceType"
-- "WallpaperTexture"
 - "HorizontalSurfaceModel"
 - "PlanetModel"
 provides-nominal:
 - "6BlueAR11SurfaceTypeO"
-- "6BlueAR16WallpaperTextureO"
 - "6BlueAR22HorizontalSurfaceModelO"
 - "6BlueAR11PlanetModelO"
 provides-member:
 - ["6BlueAR11SurfaceTypeO", ""]
-- ["6BlueAR16WallpaperTextureO", ""]
 - ["6BlueAR22HorizontalSurfaceModelO", ""]
 - ["6BlueAR11PlanetModelO", ""]
 provides-dynamic-lookup:
@@ -25,7 +22,6 @@ depends-top-level:
 - "String"
 - "StringLiteralType"
 - "SurfaceType"
-- "WallpaperTexture"
 - !private "_findStringSwitchCase"
 - !private "~="
 depends-member:
@@ -42,12 +38,9 @@ depends-member:
 - ["s12CaseIterableP", "Hand"]
 - ["s12CaseIterableP", "Horizontal"]
 - ["s12CaseIterableP", "Moon"]
+- ["s12CaseIterableP", "None"]
 - ["s12CaseIterableP", "RawValue"]
 - ["s12CaseIterableP", "Vertical"]
-- ["s12CaseIterableP", "Wallpaper1"]
-- ["s12CaseIterableP", "Wallpaper2"]
-- ["s12CaseIterableP", "Wallpaper3"]
-- ["s12CaseIterableP", "Wallpaper4"]
 - ["s12CaseIterableP", ""]
 - ["s12CaseIterableP", "_Default_AllCases"]
 - ["s12CaseIterableP", "_Default_RawValue"]
@@ -85,12 +78,9 @@ depends-member:
 - ["SQ", "Hand"]
 - ["SQ", "Horizontal"]
 - ["SQ", "Moon"]
+- ["SQ", "None"]
 - ["SQ", "RawValue"]
 - ["SQ", "Vertical"]
-- ["SQ", "Wallpaper1"]
-- ["SQ", "Wallpaper2"]
-- ["SQ", "Wallpaper3"]
-- ["SQ", "Wallpaper4"]
 - ["SQ", ""]
 - ["SQ", "_Default_AllCases"]
 - ["SQ", "_Default_RawValue"]
@@ -116,12 +106,9 @@ depends-member:
 - ["SH", "Hand"]
 - ["SH", "Horizontal"]
 - ["SH", "Moon"]
+- ["SH", "None"]
 - ["SH", "RawValue"]
 - ["SH", "Vertical"]
-- ["SH", "Wallpaper1"]
-- ["SH", "Wallpaper2"]
-- ["SH", "Wallpaper3"]
-- ["SH", "Wallpaper4"]
 - ["SH", ""]
 - ["SH", "_Default_AllCases"]
 - ["SH", "_Default_RawValue"]
@@ -196,12 +183,9 @@ depends-member:
 - ["SY", "Hand"]
 - ["SY", "Horizontal"]
 - ["SY", "Moon"]
+- ["SY", "None"]
 - ["SY", "RawValue"]
 - ["SY", "Vertical"]
-- ["SY", "Wallpaper1"]
-- ["SY", "Wallpaper2"]
-- ["SY", "Wallpaper3"]
-- ["SY", "Wallpaper4"]
 - ["SY", ""]
 - ["SY", "_Default_AllCases"]
 - ["SY", "_Default_RawValue"]
@@ -222,6 +206,7 @@ depends-member:
 - ["6BlueAR11SurfaceTypeO", "AllCases"]
 - ["6BlueAR11SurfaceTypeO", "Hand"]
 - ["6BlueAR11SurfaceTypeO", "Horizontal"]
+- ["6BlueAR11SurfaceTypeO", "None"]
 - ["6BlueAR11SurfaceTypeO", "RawValue"]
 - ["6BlueAR11SurfaceTypeO", "String"]
 - ["6BlueAR11SurfaceTypeO", "Vertical"]
@@ -240,27 +225,6 @@ depends-member:
 - !private ["s16TextOutputStreamP", "appendLiteral"]
 - !private ["s16TextOutputStreamP", "lowercased"]
 - !private ["s20TextOutputStreamableP", "lowercased"]
-- ["6BlueAR16WallpaperTextureO", "=="]
-- ["6BlueAR16WallpaperTextureO", "AllCases"]
-- ["6BlueAR16WallpaperTextureO", "RawValue"]
-- ["6BlueAR16WallpaperTextureO", "String"]
-- ["6BlueAR16WallpaperTextureO", "Wallpaper1"]
-- ["6BlueAR16WallpaperTextureO", "Wallpaper2"]
-- ["6BlueAR16WallpaperTextureO", "Wallpaper3"]
-- ["6BlueAR16WallpaperTextureO", "Wallpaper4"]
-- ["6BlueAR16WallpaperTextureO", "WallpaperTexture"]
-- ["6BlueAR16WallpaperTextureO", "_Default_AllCases"]
-- ["6BlueAR16WallpaperTextureO", "_Default_RawValue"]
-- !private ["6BlueAR16WallpaperTextureO", "_findStringSwitchCase"]
-- ["6BlueAR16WallpaperTextureO", "_rawHashValue"]
-- ["6BlueAR16WallpaperTextureO", "allCases"]
-- ["6BlueAR16WallpaperTextureO", "deinit"]
-- ["6BlueAR16WallpaperTextureO", "hash"]
-- ["6BlueAR16WallpaperTextureO", "hashValue"]
-- ["6BlueAR16WallpaperTextureO", "imageSourceString"]
-- ["6BlueAR16WallpaperTextureO", "init"]
-- ["6BlueAR16WallpaperTextureO", "rawValue"]
-- ["6BlueAR16WallpaperTextureO", "stringToWallpaperTexture"]
 - !private ["s14_ArrayProtocolP", "first"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
 - !private ["s24_DestructorSafeContainerP", "first"]
@@ -322,7 +286,6 @@ depends-nominal:
 - "6BlueAR11SurfaceTypeO"
 - !private "s16TextOutputStreamP"
 - !private "s20TextOutputStreamableP"
-- "6BlueAR16WallpaperTextureO"
 - !private "s14_ArrayProtocolP"
 - !private "s30_CustomPlaygroundQuickLookableP"
 - !private "s24_DestructorSafeContainerP"
@@ -361,10 +324,31 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/SpriteKit.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreML.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Vision.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ARKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/sys/_types/_timeval32.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKVector2.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKVector3.h"
@@ -2017,4 +2001,4 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d054703c516c6e36f55f15f31fd2a305"
+interface-hash: "3790dc987217ab95a2b7cae513401d86"

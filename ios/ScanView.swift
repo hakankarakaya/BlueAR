@@ -62,29 +62,39 @@ class ScanView: UIView {
   
   //MARK: - Extern Methods
   
-  @objc func addHorizontalSurfaceModel(identifier id: NSString) {
+  @objc func addHorizontalSurfaceModel(identifier id: NSString, modelURL url: NSString) {
     guard let planeAnchor = surfacePlaneAnchor else { return }
-    guard let horizontalSurfaceModel = HorizontalSurfaceModel.stringToHorizontalSurfaceModel(id as String) else { return }
     
-    addHorizontalSurfaceModel(surfacePlaneAnchor: planeAnchor, selectedHorizontalSurfaceModel: horizontalSurfaceModel)
+    addHorizontalSurfaceModel(surfacePlaneAnchor: planeAnchor, modelURL: url)
   }
   
-  @objc func addPlanet(identifier id: NSString) {
-    guard let planeAnchor = surfacePlaneAnchor else { return }
-    guard let planet = PlanetModel.stringToPlanetModel(id as String) else { return }
-    
-    addPlanet(surfacePlaneAnchor: planeAnchor, selectedPlanet: planet)
+  @objc func addPlanetModel(identifier id: NSString, modelURL url: NSString) {
+    addPlanet(modelURL: url)
   }
   
-  @objc func updateWallpaperTexture(identifier id: NSString) {
-    guard let selectedWallpaperTexture = WallpaperTexture.stringToWallpaperTexture(id as String) else {return}
-    
-    for wallpaperPlane in wallpaperPlaneArray {
-      let gridMaterial = SCNMaterial()
-      gridMaterial.diffuse.contents = UIImage(named: selectedWallpaperTexture.imageSourceString)
-      
-      wallpaperPlane.geometry?.materials = [gridMaterial]
+  @objc func updateWallpaperTexture(identifier id: NSString, wallpaperURL: NSString) {
+
+    // Download texture from url and apply all wallpapers
+    let url = URL(string: wallpaperURL as String)!
+    getData(from: url) { data, response, error in
+        guard let data = data, error == nil else { return }
+        DispatchQueue.main.async() {
+          for wallpaperPlane in self.wallpaperPlaneArray {
+              let gridMaterial = SCNMaterial()
+              gridMaterial.diffuse.contents = UIImage(data: data)
+              
+              wallpaperPlane.geometry?.materials = [gridMaterial]
+            }
+        }
     }
+  }
+  
+  @objc func addCharacterAnimation(identifier id: NSString, animationURL: NSString) {
+    
+  }
+  
+  func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
+      URLSession.shared.dataTask(with: url, completionHandler: completion).resume()
   }
   
   // MARK: - CoreML Vision Handling
@@ -163,8 +173,9 @@ class ScanView: UIView {
   
   // MARK: - ARSCNView
   
-  func addHorizontalSurfaceModel(surfacePlaneAnchor planeAnchor : ARPlaneAnchor, selectedHorizontalSurfaceModel: HorizontalSurfaceModel){
-    if let horizontalSurfaceModel = SCNScene(named: selectedHorizontalSurfaceModel.modelSourceString) {
+  func addHorizontalSurfaceModel(surfacePlaneAnchor planeAnchor : ARPlaneAnchor, modelURL: NSString){
+    let url = NSURL(string: modelURL as String)
+    if let horizontalSurfaceModel = try? SCNScene(url: url! as URL, options: nil) {
       let horizontalSurfaceModelNode = SCNNode()
       
       // Add all the child nodes to the parent node
@@ -181,22 +192,36 @@ class ScanView: UIView {
     }
   }
   
-  func addPlanet(surfacePlaneAnchor planeAnchor : ARPlaneAnchor, selectedPlanet: PlanetModel){
-    if let planet = SCNScene(named: selectedPlanet.modelSourceString) {
-      let planetNode = SCNNode()
+  func addPlanet(modelURL: NSString){
+    let url = NSURL(string: modelURL as String)
+//    if let planetModel = try? SCNScene(url: url! as URL, options: nil) {
+      let planetModel = SCNScene(named: "art.scnassets/idleFixed.dae")!
+      let screenCentre : CGPoint = CGPoint(x: self.sceneView.bounds.midX, y: self.sceneView.bounds.midY)
       
-      // Add all the child nodes to the parent node
-      for child in planet.rootNode.childNodes {
-        planetNode.addChildNode(child)
+      let arHitTestResults : [ARHitTestResult] = sceneView.hitTest(screenCentre, types: [.featurePoint])
+      
+      if let closestResult = arHitTestResults.first {
+          // Get Coordinates of HitTest
+          let transform : matrix_float4x4 = closestResult.worldTransform
+          let worldCoord : SCNVector3 = SCNVector3Make(transform.columns.3.x, transform.columns.3.y, transform.columns.3.z)
+          
+          // Create 3D Text
+          let planetModelNode = SCNNode()
+          
+          // Add all the child nodes to the parent node
+          for child in planetModel.rootNode.childNodes {
+            planetModelNode.addChildNode(child)
+          }
+          
+          // Set up some properties
+          planetModelNode.position = worldCoord
+          planetModelNode.scale = SCNVector3(0.02, 0.02, 0.02)
+
+          sceneView.scene.rootNode.addChildNode(planetModelNode)
+          
+          planetModelArray.append(planetModelNode)
       }
-      
-      // Set up some properties
-      planetNode.position = SCNVector3(x: planeAnchor.center.x, y: 0, z: planeAnchor.center.z)
-      
-      sceneView.scene.rootNode.addChildNode(planetNode)
-      
-      planetModelArray.append(planetNode)
-    }
+//    }
   }
   
   func addChar(atLocation location : ARHitTestResult){
@@ -285,18 +310,13 @@ class ScanView: UIView {
     return planeNode
   }
   
-  func createWallpaper(withPlaneAnchor planeAnchor: ARPlaneAnchor, selectedWallpaperTexture: WallpaperTexture) -> SCNNode {
+  func createWallpaper(withPlaneAnchor planeAnchor: ARPlaneAnchor) -> SCNNode {
     let plane = SCNPlane(width: CGFloat(planeAnchor.extent.x), height: CGFloat(planeAnchor.extent.z))
     
     let planeNode = SCNNode()
     
     planeNode.position = SCNVector3(x: planeAnchor.center.x, y: 0, z: planeAnchor.center.z)
     planeNode.transform = SCNMatrix4MakeRotation(-Float.pi/2, 1, 0, 0)
-    
-    let gridMaterial = SCNMaterial()
-    gridMaterial.diffuse.contents = UIImage(named: selectedWallpaperTexture.imageSourceString)
-    
-    plane.materials = [gridMaterial]
     
     planeNode.geometry = plane
     
@@ -324,10 +344,10 @@ extension ScanView: ARSCNViewDelegate {
         node.addChildNode(planeNode)
 
       }else if planeAnchor.alignment == .vertical{
-        onSurfaceDetected(["surface": SurfaceType.Horizontal.reactEnumString])
+        onSurfaceDetected(["surface": SurfaceType.Vertical.reactEnumString])
         
         // Add wallpaper plane
-        let wallpaperPlaneNode = createWallpaper(withPlaneAnchor: planeAnchor, selectedWallpaperTexture: WallpaperTexture.Wallpaper1)
+        let wallpaperPlaneNode = createWallpaper(withPlaneAnchor: planeAnchor)
         node.addChildNode(wallpaperPlaneNode)
         self.wallpaperPlaneArray.append(wallpaperPlaneNode)
       }

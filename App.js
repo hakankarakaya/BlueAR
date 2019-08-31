@@ -17,27 +17,39 @@ import {
   TouchableHighlight
 } from "react-native";
 
-import FirstClass from "./FirstClass"
 import ScanView from "./ScanView";
 import OverlayMenuView from "./OverlayMenuView";
 
-FirstClass.addListener("onIncrement", res => {
-  console.log("event onIncrement", res)
-})
-FirstClass.increment()
-FirstClass.decrement()
-FirstClass.decrement()
+console.disableYellowBox = true;
 
 export default class App extends Component {
 
   surfaceDetected = e => {
     this.setState({ surface: e.surface })
+    this.overlayMenuRef.surfaceChanged(e.surface);
     console.log("surface: " + e.surface);
   };
 
-  updateNative = () => {
-    this.objectRef.objectSelected("Wallpaper3");
+  onHorizontalSurfaceModelSelected = item => {
+    console.log("onHorizontalSurfaceModelSelected");
+    this.objectRef.addHorizontalSurfaceModel(item.id, item.modelURL);
   };
+  onPlanetModelSelected = item => {
+    console.log("onPlanetModelSelected");
+    this.objectRef.addPlanetModel(item.id, item.modelURL);
+  };
+  onWallpaperSelected = item => {
+    console.log("onWallpaperSelected");
+    this.objectRef.updateWallpaperTexture(item.id, item.wallpaperURL);
+  };
+  onCharacterAnimationSelected = item => {
+    console.log("onCharacterAnimationSelected");
+    this.objectRef.addCharacterAnimation(item.id, item.animationURL);
+  };
+
+  // updateNative = () => {
+  //   this.objectRef.objectSelected("Wallpaper3");
+  // };
 
   render() {
     return (
@@ -57,6 +69,11 @@ export default class App extends Component {
 
         <OverlayMenuView
           style={styles.fullScreenContainer}
+          onHorizontalSurfaceModelSelected={this.onHorizontalSurfaceModelSelected}
+          onPlanetModelSelected={this.onPlanetModelSelected}
+          onWallpaperSelected={this.onWallpaperSelected}
+          onCharacterAnimationSelected={this.onCharacterAnimationSelected}
+          ref={e => (this.overlayMenuRef = e)}
         />
       </View>
     );

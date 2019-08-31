@@ -187,7 +187,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import UIKit;
 #endif
 
-#import "/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/BlueAR-Bridging-Header.h"
+#import "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/BlueAR-Bridging-Header.h"
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
@@ -204,43 +204,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
-
-SWIFT_CLASS_NAMED("FirstClass")
-@interface FirstClass : RCTEventEmitter
-- (void)increment;
-- (void)getCount:(SWIFT_NOESCAPE void (^ _Nonnull)(NSArray * _Nullable))callback;
-- (void)decrement:(SWIFT_NOESCAPE void (^ _Nonnull)(id _Nullable))resolve rejecter:(SWIFT_NOESCAPE void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable, NSError * _Nullable))reject;
-- (NSArray<NSString *> * _Null_unspecified)supportedEvents SWIFT_WARN_UNUSED_RESULT;
-- (NSDictionary * _Null_unspecified)constantsToExport SWIFT_WARN_UNUSED_RESULT;
-+ (BOOL)requiresMainQueueSetup SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class NSNumber;
-@class NSCoder;
-@class UILongPressGestureRecognizer;
-
-SWIFT_CLASS("_TtC6BlueAR9FirstView")
-@interface FirstView : UIView
-@property (nonatomic, strong) NSNumber * _Nonnull count;
-@property (nonatomic, copy) RCTDirectEventBlock _Nullable onUpdate;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (void)increment;
-- (void)sendUpdate:(UILongPressGestureRecognizer * _Nonnull)gesture;
-- (void)updateWithValue:(NSNumber * _Nonnull)value;
-@end
-
-
-SWIFT_CLASS_NAMED("FirstViewManager")
-@interface FirstViewManager : RCTViewManager
-- (UIView * _Null_unspecified)view SWIFT_WARN_UNUSED_RESULT;
-+ (BOOL)requiresMainQueueSetup SWIFT_WARN_UNUSED_RESULT;
-- (void)updateFromManager:(NSNumber * _Nonnull)node count:(NSNumber * _Nonnull)count;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class ARSCNView;
+@class NSCoder;
 @class NSString;
 @class UITouch;
 @class UIEvent;
@@ -252,9 +217,10 @@ SWIFT_CLASS("_TtC6BlueAR8ScanView")
 @property (nonatomic, copy) RCTDirectEventBlock _Nullable onSurfaceDetected;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)addHorizontalSurfaceModelWithIdentifier:(NSString * _Nonnull)id;
-- (void)addPlanetWithIdentifier:(NSString * _Nonnull)id;
-- (void)updateWallpaperTextureWithIdentifier:(NSString * _Nonnull)id;
+- (void)addHorizontalSurfaceModelWithIdentifier:(NSString * _Nonnull)id modelURL:(NSString * _Nonnull)url;
+- (void)addPlanetModelWithIdentifier:(NSString * _Nonnull)id modelURL:(NSString * _Nonnull)url;
+- (void)updateWallpaperTextureWithIdentifier:(NSString * _Nonnull)id wallpaperURL:(NSString * _Nonnull)wallpaperURL;
+- (void)addCharacterAnimationWithIdentifier:(NSString * _Nonnull)id animationURL:(NSString * _Nonnull)animationURL;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 @end
 
@@ -270,14 +236,16 @@ SWIFT_CLASS("_TtC6BlueAR8ScanView")
 - (void)sessionInterruptionEnded:(ARSession * _Nonnull)session;
 @end
 
+@class NSNumber;
 
 SWIFT_CLASS_NAMED("ScanViewManager")
 @interface ScanViewManager : RCTViewManager
 - (UIView * _Null_unspecified)view SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)requiresMainQueueSetup SWIFT_WARN_UNUSED_RESULT;
-- (void)addHorizontalSurfaceModel:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id;
-- (void)addPlanet:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id;
-- (void)updateWallpaperTexture:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id;
+- (void)addHorizontalSurfaceModel:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)identifier modelURL:(NSString * _Nonnull)modelURL;
+- (void)addPlanetModel:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id modelURL:(NSString * _Nonnull)modelURL;
+- (void)updateWallpaperTexture:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id wallpaperURL:(NSString * _Nonnull)wallpaperURL;
+- (void)addCharacterAnimation:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id animationURL:(NSString * _Nonnull)animationURL;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

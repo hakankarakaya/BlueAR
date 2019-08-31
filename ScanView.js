@@ -32,10 +32,31 @@ export default class ScanView extends Component {
     );
   }
 
-  objectSelected = (...args) => {
+  addHorizontalSurfaceModel = (...args) => {
     UIManager.dispatchViewManagerCommand(
       findNodeHandle(this.ref),
       UIManager[COMPONENT_NAME].Commands.addHorizontalSurfaceModel,
+      [...args]
+    );
+  };
+  addPlanetModel = (...args) => {
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(this.ref),
+      UIManager[COMPONENT_NAME].Commands.addPlanetModel,
+      [...args]
+    );
+  };
+  updateWallpaperTexture = (...args) => {
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(this.ref),
+      UIManager[COMPONENT_NAME].Commands.updateWallpaperTexture,
+      [...args]
+    );
+  };
+  addCharacterAnimation = (...args) => {
+    UIManager.dispatchViewManagerCommand(
+      findNodeHandle(this.ref),
+      UIManager[COMPONENT_NAME].Commands.addCharacterAnimation,
       [...args]
     );
   };
