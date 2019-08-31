@@ -1,0 +1,8 @@
+/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/Pods/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf
+/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/Pods/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf
+/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/Pods/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf
+/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/Pods/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf
+/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/Pods/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf
+/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/Pods/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf
+/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/Pods/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf
+/Users/hakankarakaya/Documents/Others/Blue-AR/BlueAR/ios/Pods/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf

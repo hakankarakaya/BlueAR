@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>1F98058F-86D6-4855-87C9-944EDE3FF515</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>1F98058F-86D6-4855-87C9-944EDE3FF515.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BlueAR project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BlueAR</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace BlueAR with scheme BlueAR and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>588949670.78835595</real>
+			<key>timeStoppedRecording</key>
+			<real>588949673.69727802</real>
+			<key>title</key>
+			<string>Building workspace BlueAR with scheme BlueAR and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>1F98058F-86D6-4855-87C9-944EDE3FF515</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
