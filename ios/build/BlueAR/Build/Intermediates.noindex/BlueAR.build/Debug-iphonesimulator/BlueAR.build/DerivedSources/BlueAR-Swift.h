@@ -214,8 +214,6 @@ SWIFT_CLASS("_TtC6BlueAR15DownloadManager")
 @class ARSCNView;
 @class NSCoder;
 @class NSString;
-@class UITouch;
-@class UIEvent;
 
 SWIFT_CLASS("_TtC6BlueAR8ScanView")
 @interface ScanView : UIView
@@ -228,7 +226,6 @@ SWIFT_CLASS("_TtC6BlueAR8ScanView")
 - (void)addPlanetModelWithIdentifier:(NSString * _Nonnull)id modelURL:(NSString * _Nonnull)url;
 - (void)addWallpaperTextureWithIdentifier:(NSString * _Nonnull)id wallpaperURL:(NSString * _Nonnull)wallpaperURL;
 - (void)addCharacterAnimationWithIdentifier:(NSString * _Nonnull)id animationURL:(NSString * _Nonnull)animationURL;
-- (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 @end
 
 @protocol SCNSceneRenderer;

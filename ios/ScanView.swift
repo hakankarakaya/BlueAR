@@ -29,6 +29,7 @@ class ScanView: UIView {
   var wallpaperArray = [SCNNode]()
   var horizontalSurfaceModelArray = [SCNNode]()
   var planetModelArray = [SCNNode]()
+  var charModelArray = [SCNNode]()
   
   // Detected surface plane Anchor
   var surfacePlaneAnchor: ARPlaneAnchor?
@@ -104,7 +105,15 @@ class ScanView: UIView {
   }
   
   @objc func addCharacterAnimation(identifier id: NSString, animationURL: NSString) {
+    guard let planeAnchor = surfacePlaneAnchor else { return }
+    guard let surfaceNode = surfaceNode else { return }
     
+    if planeAnchor.alignment == .horizontal {
+      addChar(surfacePlaneAnchor: planeAnchor, id: id, animationURL: animationURL, surfaceNode: surfaceNode)
+      
+    }else{
+      print("Surface alignment not horizontal!")
+    }
   }
   
   func getData(from url: URL, completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
@@ -256,7 +265,13 @@ class ScanView: UIView {
     self.wallpaperArray.append(wallpaperNode)
   }
   
-  func addChar(atLocation location : ARHitTestResult){
+  func addChar(surfacePlaneAnchor planeAnchor : ARPlaneAnchor, id: NSString, animationURL: NSString, surfaceNode: SCNNode){
+    
+    // Remove old objects from the scene. If you don't want to remove it, convert the comment line.
+    for charModel in self.charModelArray {
+      charModel.removeFromParentNode()
+    }
+    
     let idleScene = SCNScene(named: "art.scnassets/idleFixed.dae")!
     
     let charNode = SCNNode()
@@ -267,17 +282,18 @@ class ScanView: UIView {
     }
     
     // Set up some properties
-    charNode.position = SCNVector3(
-      x: location.worldTransform.columns.3.x,
-      y: location.worldTransform.columns.3.y,
-      z: location.worldTransform.columns.3.z
-    )
+    charNode.position = SCNVector3(x: planeAnchor.center.x, y: 0, z: planeAnchor.center.z)
     charNode.scale = SCNVector3(0.02, 0.02, 0.02)
     
-    sceneView.scene.rootNode.addChildNode(charNode)
+    surfaceNode.addChildNode(charNode)
+    
+    charModelArray.append(charNode)
     
     // Load all the DAE animations
     loadAnimation(withKey: "dancing", sceneName: "art.scnassets/twist_danceFixed", animationIdentifier: "twist_danceFixed-1")
+    
+    // play animation
+    self.playAnimation(key: animationURL as String)
   }
   
   func loadAnimation(withKey: String, sceneName:String, animationIdentifier:String) {
@@ -308,20 +324,6 @@ class ScanView: UIView {
     sceneView.scene.rootNode.removeAnimation(forKey: key, blendOutDuration: CGFloat(0.5))
   }
   
-  //MARK: - Char Rendering Methods
-  
-  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-    if let touch = touches.first {
-      let touchLocation = touch.location(in: sceneView)
-      
-      //MARK: 2D touch convert 3D location
-      let results = sceneView.hitTest(touchLocation, types: .existingPlaneUsingExtent)
-      
-      if let hitResult = results.first {
-        addChar(atLocation: hitResult)
-      }
-    }
-  }
   //MARK: - Surface Rendering Methods
   
   func createPlane(withPlaneAnchor planeAnchor: ARPlaneAnchor) -> SCNNode {

@@ -178,7 +178,7 @@
 		13B07FAE1A68108700A75B9A /* BlueAR */ = {
 			isa = PBXGroup;
 			children = (
-				2E96F57E231ACEB60064CBC3 /* FontAwesome.ttf */,
+				2E0E6883231C290D001AF380 /* Fonts */,
 				2EB66E2223197857006CC514 /* CoreMLModels */,
 				2EB66E2423197889006CC514 /* Resources */,
 				2EB66E1F2319783F006CC514 /* Utils */,
@@ -253,6 +253,14 @@
 				7C0D33C6E3B54665B873F191 /* libPods-BlueARTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E0E6883231C290D001AF380 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2E96F57E231ACEB60064CBC3 /* FontAwesome.ttf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		2E952F6023193CE2002A3A10 /* NativeViews */ = {
