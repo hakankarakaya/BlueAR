@@ -49,19 +49,28 @@ class DownloadManager: NSObject {
         let objNode = SCNNode()
         guard let childNodes = objScene?.rootNode.childNodes else {return nil}
         
-        // Apply to model if material exists
-        if let mtlFile = files.first(where: { $0.hasSuffix(".mtl") }) {
+        
+        var materialImageData: Data?
+        // Apply to model if jpg material exists
+        if let mtlFile = files.first(where: { $0.hasSuffix(".jpg") }) {
           if let imageData = try? Data(contentsOf: dirForModel.appendingPathComponent(mtlFile)) {
-              let material = SCNMaterial()
-              material.diffuse.contents = UIImage(data: imageData)
-              
-              objNode.geometry?.materials = [material]
+            
+            materialImageData = imageData
           }
         }
         
+        // Add childNodes with if material exist
         for child in childNodes {
           objNode.addChildNode(child)
+          
+          if let data = materialImageData {
+            let childMaterial = SCNMaterial()
+            childMaterial.diffuse.contents = UIImage(data: data)
+            
+            child.geometry?.firstMaterial = childMaterial
+          }
         }
+        
         return objNode
       } else {
         print("No obj file in directory: \(dirForModel.path)")

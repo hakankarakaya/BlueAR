@@ -1,6 +1,6 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.6 clang-1100.0.32.1)"
 options: "2dd7817c484e5bce884ef52c479d20b3"
-build_time: [1567331997, 577284000]
+build_time: [1567374423, 686844000]
 inputs:
   "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/AFError.swift": [1567325558, 814144441]
   "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/Alamofire.swift": [1567325558, 814706606]

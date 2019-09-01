@@ -9,6 +9,7 @@
 import UIKit
 import ARKit
 import Vision
+import Toast_Swift
 
 class ScanView: UIView {
   
@@ -71,7 +72,7 @@ class ScanView: UIView {
     if planeAnchor.alignment == .horizontal {
       addHorizontalSurfaceModel(surfacePlaneAnchor: planeAnchor, id: id, modelURL: url, surfaceNode: surfaceNode)
     }else{
-      print("Surface alignment not horizontal!")
+      self.contentView.makeToast("Surface not horizontal!.", duration: 2.0, position: .center)
     }
   }
   
@@ -88,19 +89,26 @@ class ScanView: UIView {
       
       // Download texture from url and apply all wallpapers
       let url = URL(string: wallpaperURL as String)!
+      self.contentView.makeToastActivity(.center)
+
       getData(from: url) { data, response, error in
-        guard let data = data, error == nil else { return }
+        guard let data = data, error == nil else {
+          self.contentView.hideToastActivity()
+          return
+        }
         DispatchQueue.main.async() {
           for wallpaper in self.wallpaperArray {
             let gridMaterial = SCNMaterial()
             gridMaterial.diffuse.contents = UIImage(data: data)
             
             wallpaper.geometry?.materials = [gridMaterial]
+            
+            self.contentView.hideToastActivity()
           }
         }
       }
     }else {
-      print("Surface alignment not vertical!")
+      self.contentView.makeToast("Surface not vertical!.", duration: 2.0, position: .center)
     }
   }
   
@@ -112,7 +120,7 @@ class ScanView: UIView {
       addChar(surfacePlaneAnchor: planeAnchor, id: id, animationURL: animationURL, surfaceNode: surfaceNode)
       
     }else{
-      print("Surface alignment not horizontal!")
+      self.contentView.makeToast("Surface not horizontal!.", duration: 2.0, position: .center)
     }
   }
   
@@ -151,28 +159,28 @@ class ScanView: UIView {
   func classificationCompleteHandler(request: VNRequest, error: Error?) {
     // Catch Errors
     if error != nil {
-      print("Error: " + (error?.localizedDescription)!)
       return
     }
     guard let observations = request.results else {
-      print("No results")
       return
     }
     
     //MARK: Object Classification
     DispatchQueue.main.async {
       guard let identifier = (observations[0] as? VNClassificationObservation)?.identifier else {return}
-      guard let confidence = (observations[0] as? VNClassificationObservation)?.confidence else {return}
+//      guard let confidence = (observations[0] as? VNClassificationObservation)?.confidence else {return}
       
       //MARK: if hand detected send the surface information to the react native.
-      if identifier.contains("FIVE") && confidence > 0.7 && !self.handDetected {
-        self.handDetected = true
+      if identifier.contains("no-hand") {
+        if self.onSurfaceDetected != nil {
+          // Event Emitter
+          self.onSurfaceDetected!(["surface": SurfaceType.None.reactEnumString])
+        }
+      }else {
         if self.onSurfaceDetected != nil {
           // Event Emitter
           self.onSurfaceDetected!(["surface": SurfaceType.Hand.reactEnumString])
         }
-      }else if self.handDetected {
-        self.handDetected = false
       }
     }
   }
@@ -197,6 +205,8 @@ class ScanView: UIView {
   // MARK: - ARSCNView
   
   func addHorizontalSurfaceModel(surfacePlaneAnchor planeAnchor : ARPlaneAnchor, id: NSString, modelURL: NSString, surfaceNode: SCNNode){
+    self.contentView.makeToastActivity(.center)
+    
     DownloadManager.sharedInstance.getModelSCNNode(id: id, modelURL: modelURL) { (modelNode) in
       guard let node = modelNode else { return }
       
@@ -212,10 +222,14 @@ class ScanView: UIView {
       surfaceNode.addChildNode(node)
       
       self.horizontalSurfaceModelArray.append(node)
+      
+      self.contentView.hideToastActivity()
     }
   }
   
   func addPlanet(id: NSString, modelURL: NSString){
+    self.contentView.makeToastActivity(.center)
+
     DownloadManager.sharedInstance.getModelSCNNode(id: id, modelURL: modelURL) { (modelNode) in
       guard let node = modelNode else { return }
       
@@ -240,6 +254,8 @@ class ScanView: UIView {
         self.sceneView.scene.rootNode.addChildNode(node)
         
         self.planetModelArray.append(node)
+        
+        self.contentView.hideToastActivity()
       }
     }
   }
@@ -369,9 +385,17 @@ extension ScanView: ARSCNViewDelegate {
         surfaceNode = node
       }
     }
-    
   }
   
+  func renderer(_ renderer: SCNSceneRenderer, didRemove node: SCNNode, for anchor: ARAnchor) {
+    surfaceNode = nil
+    surfacePlaneAnchor = nil
+    
+    if let onSurfaceDetected = self.onSurfaceDetected {
+      onSurfaceDetected(["surface": SurfaceType.None.reactEnumString])
+    }
+  }
+    
   func session(_ session: ARSession, didFailWithError error: Error) {
     // Present an error message to the user
   }

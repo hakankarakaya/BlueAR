@@ -258,12 +258,14 @@ export default class OverlayMenuView extends Component {
         the part of the recommended models is painted in green.
     */
     surfaceChanged = (...args) => {
-        this.horizontalSurfaceModelIcon.setNativeProps({ style:{color: '#0A8ED6'} });
-        this.planetModelIcon.setNativeProps({ style:{color: '#0A8ED6'} });
-        this.wallpaperIcon.setNativeProps({ style:{color: '#0A8ED6'} });
-        this.characterAnimationIcon.setNativeProps({ style:{color: '#0A8ED6'} });
 
-        console.log(args[0]);
+        //Hand detection different from others
+        if(args[0] != "Hand" && args[0] != "None"){
+            this.horizontalSurfaceModelIcon.setNativeProps({ style:{color: '#0A8ED6'} });
+            this.wallpaperIcon.setNativeProps({ style:{color: '#0A8ED6'} });
+            this.characterAnimationIcon.setNativeProps({ style:{color: '#0A8ED6'} });
+        }
+
         switch (args[0]) {
             case "Horizontal":
                 this.horizontalSurfaceModelIcon.setNativeProps({ style:{color: '#3fba29'} });
@@ -273,6 +275,9 @@ export default class OverlayMenuView extends Component {
                 break;
             case "Hand":
                 this.planetModelIcon.setNativeProps({ style:{color: '#3fba29'} });
+                break;
+            case "None":
+                this.planetModelIcon.setNativeProps({ style:{color: '#0A8ED6'} });
                 break;
             default:
                 break;

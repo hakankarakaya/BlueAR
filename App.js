@@ -22,7 +22,6 @@ export default class App extends Component {
   surfaceDetected = e => {
     this.setState({ surface: e.surface })
     this.overlayMenuRef.surfaceChanged(e.surface);
-    console.log("surface: " + e.surface);
   };
 
   onHorizontalSurfaceModelSelected = item => {

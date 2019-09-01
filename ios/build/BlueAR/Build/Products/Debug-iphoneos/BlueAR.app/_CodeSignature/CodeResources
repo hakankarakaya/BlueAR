@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		4+xrONVzH4VcLzZ5qP9aGp9yRVI=
+		UNKatK2YTqgkVOLlaCWPcZ7UiM8=
 		</data>
 		<key>FontAwesome.ttf</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
 		<data>
-		1v84xl7PgU++46KXhL+yuzTKwnQ=
+		WVk6wXLey5Gjk68WMQ83HFy5/4k=
 		</data>
 		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		izQqVZa+74AuYgbAoPoC0m0OTFc=
+		UZ7Ibi1NWjdA0q8tqWl7mkI0KeQ=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -55,11 +55,11 @@
 		</data>
 		<key>Frameworks/libXCTestBundleInject.dylib</key>
 		<data>
-		dj8pREVRW/EPDL1FXGJV32ETHuU=
+		KCq1zhhoGADQdcETfpvHAn4OfVM=
 		</data>
 		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
 		<data>
-		dxlpxHVOivCYr44MOD2JkmuUl+0=
+		3FH1ywtqsnZmeT7G80ZZ3+WB358=
 		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
@@ -195,11 +195,11 @@
 		</data>
 		<key>PlugIns/BlueARTests.xctest.dSYM/Contents/Resources/DWARF/BlueARTests</key>
 		<data>
-		XSBfHl7aGZPKKDeHMAbKE89+94s=
+		BHuvH2UAMahWNhzKrnopcqbegCQ=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<data>
-		eCKOPYKZyCvcRWb0IdLCxKZeEY0=
+		jKf24HYGsGUqAYQ8hZxzUy1D644=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
 		<data>
@@ -211,11 +211,19 @@
 		</data>
 		<key>ScanView.nib</key>
 		<data>
-		jKe67SFW/XrKPgLjajMEFX3+TOk=
+		sgaISwJ6zrOytZ/XruFepQ/Dkvw=
 		</data>
 		<key>art.scnassets/.DS_Store</key>
 		<data>
 		EsbOQLL1/QhO4yG16rBUyTCBJ4U=
+		</data>
+		<key>art.scnassets/MoonColorMap.png</key>
+		<data>
+		ZX6ORhFK8kFF+MZ+mAi8pHSeLk4=
+		</data>
+		<key>art.scnassets/Moon_2K.obj</key>
+		<data>
+		MoGUCrDc9bEGHAP/ULHr/cWDtGM=
 		</data>
 		<key>art.scnassets/bottle.dae</key>
 		<data>
@@ -387,11 +395,11 @@
 		</data>
 		<key>ip.txt</key>
 		<data>
-		vJbWyU3WjCexoDYbgIT6lBGQ2Dg=
+		YlHqgbVAtkrNuB7532DbVccuOGE=
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		L+3T64cbk9n3pzrHO1E00IBswGQ=
+		k6yb2BIkHy440qhndZ8MPXHnUwo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -400,7 +408,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NRlaJ8Z2j/LLNhhqer6/GqDoemVj6yEPxNg2Vkj4ths=
+			c4P/RUIRBTRVG4tCo0QLvkIWQWgPt9RJWzNadm1DxjY=
 			</data>
 		</dict>
 		<key>FontAwesome.ttf</key>
@@ -421,7 +429,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QNVZWQpdjNqL20+wVi45jRcIwmIj2+n7gqbySM79KHI=
+			9Hyjh1xNyYigOk1KRBiL/UGF80+Xd5vr3CXPdXiUSv8=
 			</data>
 		</dict>
 		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
@@ -449,7 +457,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aKun5iAg+CAIjWuUshIRi39Az5KpAe41UlYG8J+XRHo=
+			rfPdjgm0k3/ryMXjVNYw8GrPzYZfM0Syh5Td3/LlvfA=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
@@ -479,14 +487,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rVjN15QJKcknvdyG/utonD+jPogfBGafLxbMk4nv1wc=
+			ly2lgthEo8SF4mn1R0vK0U6occrsA2YrVzH4YrI4bt8=
 			</data>
 		</dict>
 		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kPMQm2Cpe6xjrcS2scPmEQPyqbLN62pQeTCG/YuEnvc=
+			aZ8/UObVVZrU8Ez1WrjSd03IY1rcer+9YEdDa0ZlBlw=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
@@ -710,14 +718,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iN0NEjB24yQWIXXwgezhWd3Ddvq4x6XpOku7vxXuUe0=
+			kDmWFKyUkls1q1p9Xdxcx/KxSHnvT0ygldSAjfxeGxY=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iDfOg1t5zkFm8lj7Isc04cIAOTSlge6NNbtqJP2MkmI=
+			1CvKi88eTRWAj/+C6njjHCwt5xdoqy84IshhsQ1Kzn0=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
@@ -738,7 +746,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6nvmdtX3bDU23iORXB23kIT80Y9nN92WYl3ep4j1+Wc=
+			1OnYpufy9u5qrexTlMp5wn2/nwPL2Jg58LpbPV7dg8k=
+			</data>
+		</dict>
+		<key>art.scnassets/MoonColorMap.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nvtA6QeSsF+pqhiUuYXZZDcB+w+xUJTy+IG3KZ63W6s=
+			</data>
+		</dict>
+		<key>art.scnassets/Moon_2K.obj</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JM71ttfWuAj29hdspqrzbsLWRoUnrGCX3VJ5gnIjX2U=
 			</data>
 		</dict>
 		<key>art.scnassets/bottle.dae</key>
@@ -1039,14 +1061,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KTVqL6G7RNEyp+JXQhd9AjpTm9Y6jNfrmdiQf1CAYGE=
+			0CWdig6oqr8W7maocwJvY5mM2lmstgUEtVpK41B1+vw=
 			</data>
 		</dict>
 		<key>main.jsbundle</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IHneoyRyrshfs4TKTpP/if8yQ6hnzivQZSzH1Dld920=
+			sgpm5IFcB3OSzkmpfQea2ToCwwpjomc63qCzHxAkco0=
 			</data>
 		</dict>
 	</dict>

@@ -59,12 +59,12 @@ depends-member:
 - !private ["s7CVarArgP", "downloadZipFromURL"]
 - !private ["s7CVarArgP", "fileExists"]
 - !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "firstMaterial"]
 - !private ["s7CVarArgP", "geometry"]
 - !private ["s7CVarArgP", "hasSuffix"]
 - ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "lastPathComponent"]
 - !private ["s7CVarArgP", "loadModelFromDisk"]
-- !private ["s7CVarArgP", "materials"]
 - !private ["s7CVarArgP", "modelsDirectory"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "rootNode"]
@@ -105,12 +105,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "downloadZipFromURL"]
 - !private ["s28CustomDebugStringConvertibleP", "fileExists"]
 - !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "firstMaterial"]
 - !private ["s28CustomDebugStringConvertibleP", "geometry"]
 - !private ["s28CustomDebugStringConvertibleP", "hasSuffix"]
 - ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
 - !private ["s28CustomDebugStringConvertibleP", "loadModelFromDisk"]
-- !private ["s28CustomDebugStringConvertibleP", "materials"]
 - !private ["s28CustomDebugStringConvertibleP", "modelsDirectory"]
 - !private ["s28CustomDebugStringConvertibleP", "path"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
@@ -151,12 +151,12 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "downloadZipFromURL"]
 - !private ["s23CustomStringConvertibleP", "fileExists"]
 - !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstMaterial"]
 - !private ["s23CustomStringConvertibleP", "geometry"]
 - !private ["s23CustomStringConvertibleP", "hasSuffix"]
 - ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "lastPathComponent"]
 - !private ["s23CustomStringConvertibleP", "loadModelFromDisk"]
-- !private ["s23CustomStringConvertibleP", "materials"]
 - !private ["s23CustomStringConvertibleP", "modelsDirectory"]
 - !private ["s23CustomStringConvertibleP", "path"]
 - !private ["s23CustomStringConvertibleP", "print"]
@@ -241,12 +241,12 @@ depends-member:
 - !private ["SQ", "downloadZipFromURL"]
 - !private ["SQ", "fileExists"]
 - !private ["SQ", "first"]
+- !private ["SQ", "firstMaterial"]
 - !private ["SQ", "geometry"]
 - !private ["SQ", "hasSuffix"]
 - ["SQ", "init"]
 - !private ["SQ", "lastPathComponent"]
 - !private ["SQ", "loadModelFromDisk"]
-- !private ["SQ", "materials"]
 - !private ["SQ", "modelsDirectory"]
 - !private ["SQ", "path"]
 - !private ["SQ", "print"]
@@ -307,12 +307,12 @@ depends-member:
 - !private ["SH", "downloadZipFromURL"]
 - !private ["SH", "fileExists"]
 - !private ["SH", "first"]
+- !private ["SH", "firstMaterial"]
 - !private ["SH", "geometry"]
 - !private ["SH", "hasSuffix"]
 - ["SH", "init"]
 - !private ["SH", "lastPathComponent"]
 - !private ["SH", "loadModelFromDisk"]
-- !private ["SH", "materials"]
 - !private ["SH", "modelsDirectory"]
 - !private ["SH", "path"]
 - !private ["SH", "print"]
@@ -333,21 +333,21 @@ depends-member:
 - !private ["So8NSCodingP", "contents"]
 - !private ["So8NSCodingP", "deletingPathExtension"]
 - !private ["So8NSCodingP", "diffuse"]
+- !private ["So8NSCodingP", "firstMaterial"]
 - !private ["So8NSCodingP", "geometry"]
 - !private ["So8NSCodingP", "hasSuffix"]
 - !private ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "lastPathComponent"]
-- !private ["So8NSCodingP", "materials"]
 - !private ["So8NSCodingP", "rootNode"]
 - !private ["So9NSCopyingP", "addChildNode"]
 - !private ["So9NSCopyingP", "childNodes"]
 - !private ["So9NSCopyingP", "deletingPathExtension"]
 - !private ["So9NSCopyingP", "diffuse"]
+- !private ["So9NSCopyingP", "firstMaterial"]
 - !private ["So9NSCopyingP", "geometry"]
 - !private ["So9NSCopyingP", "hasSuffix"]
 - !private ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "lastPathComponent"]
-- !private ["So9NSCopyingP", "materials"]
 - !private ["So21NSItemProviderReadingP", "deletingPathExtension"]
 - !private ["So21NSItemProviderReadingP", "hasSuffix"]
 - !private ["So21NSItemProviderReadingP", "init"]
@@ -384,13 +384,13 @@ depends-member:
 - !private ["So8NSObjectC", "diffuse"]
 - ["So8NSObjectC", "downloadZipFromURL"]
 - !private ["So8NSObjectC", "fileExists"]
+- !private ["So8NSObjectC", "firstMaterial"]
 - !private ["So8NSObjectC", "geometry"]
 - ["So8NSObjectC", "getModelSCNNode"]
 - !private ["So8NSObjectC", "hasSuffix"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "lastPathComponent"]
 - ["So8NSObjectC", "loadModelFromDisk"]
-- !private ["So8NSObjectC", "materials"]
 - ["So8NSObjectC", "modelsDirectory"]
 - !private ["So8NSObjectC", "print"]
 - !private ["So8NSObjectC", "rootNode"]
@@ -418,12 +418,12 @@ depends-member:
 - !private ["So8NSObjectP", "diffuse"]
 - !private ["So8NSObjectP", "downloadZipFromURL"]
 - !private ["So8NSObjectP", "fileExists"]
+- !private ["So8NSObjectP", "firstMaterial"]
 - !private ["So8NSObjectP", "geometry"]
 - !private ["So8NSObjectP", "hasSuffix"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "lastPathComponent"]
 - !private ["So8NSObjectP", "loadModelFromDisk"]
-- !private ["So8NSObjectP", "materials"]
 - !private ["So8NSObjectP", "modelsDirectory"]
 - !private ["So8NSObjectP", "print"]
 - !private ["So8NSObjectP", "rootNode"]
@@ -434,11 +434,11 @@ depends-member:
 - !private ["So14NSSecureCodingP", "contents"]
 - !private ["So14NSSecureCodingP", "deletingPathExtension"]
 - !private ["So14NSSecureCodingP", "diffuse"]
+- !private ["So14NSSecureCodingP", "firstMaterial"]
 - !private ["So14NSSecureCodingP", "geometry"]
 - !private ["So14NSSecureCodingP", "hasSuffix"]
 - !private ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "lastPathComponent"]
-- !private ["So14NSSecureCodingP", "materials"]
 - !private ["So14NSSecureCodingP", "rootNode"]
 - !private ["So8NSStringC", "deletingPathExtension"]
 - !private ["So8NSStringC", "hasSuffix"]
@@ -475,15 +475,15 @@ depends-member:
 - !private ["So13SCNAnimatableP", "childNodes"]
 - !private ["So13SCNAnimatableP", "contents"]
 - !private ["So13SCNAnimatableP", "diffuse"]
+- !private ["So13SCNAnimatableP", "firstMaterial"]
 - !private ["So13SCNAnimatableP", "geometry"]
 - !private ["So13SCNAnimatableP", "init"]
-- !private ["So13SCNAnimatableP", "materials"]
 - !private ["So17SCNBoundingVolumeP", "addChildNode"]
 - !private ["So17SCNBoundingVolumeP", "childNodes"]
+- !private ["So17SCNBoundingVolumeP", "firstMaterial"]
 - !private ["So17SCNBoundingVolumeP", "geometry"]
 - !private ["So17SCNBoundingVolumeP", "init"]
-- !private ["So17SCNBoundingVolumeP", "materials"]
-- !private ["So11SCNGeometryC", "materials"]
+- !private ["So11SCNGeometryC", "firstMaterial"]
 - !private ["So11SCNMaterialC", "diffuse"]
 - !private ["So11SCNMaterialC", "init"]
 - !private ["So19SCNMaterialPropertyC", "contents"]
@@ -494,8 +494,8 @@ depends-member:
 - !private ["So8SCNSceneC", "init"]
 - !private ["So8SCNSceneC", "rootNode"]
 - !private ["So11SCNShadableP", "diffuse"]
+- !private ["So11SCNShadableP", "firstMaterial"]
 - !private ["So11SCNShadableP", "init"]
-- !private ["So11SCNShadableP", "materials"]
 - ["So21NSSearchPathDirectoryV", "documentDirectory"]
 - ["So22NSSearchPathDomainMaskV", "userDomainMask"]
 - !private ["ST", "first"]
@@ -586,12 +586,12 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "diffuse"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "downloadZipFromURL"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstMaterial"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "geometry"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "hasSuffix"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "lastPathComponent"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "loadModelFromDisk"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "materials"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "modelsDirectory"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "rootNode"]
@@ -618,12 +618,12 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "diffuse"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "downloadZipFromURL"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileExists"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "firstMaterial"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "geometry"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasSuffix"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lastPathComponent"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "loadModelFromDisk"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "materials"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "modelsDirectory"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rootNode"]
@@ -778,6 +778,7 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/prebuilt-modules/Combine.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/Alamofire/Alamofire.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/ZIPFoundation/ZIPFoundation.swiftmodule/arm64-apple-ios.swiftmodule"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/Toast-Swift/Toast_Swift.swiftmodule/arm64-apple-ios.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/_types/_timeval32.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKVector2.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKVector3.h"
@@ -808,6 +809,7 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVPlayerMediaSelectionCriteria.h"
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/Alamofire/Alamofire-umbrella.h"
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/ZIPFoundation/ZIPFoundation-umbrella.h"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/Toast-Swift/Toast-Swift-umbrella.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/ModelIO.framework/Headers/MDLCamera.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SCNCamera.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/ARKit.framework/Headers/ARCamera.h"
@@ -2121,6 +2123,7 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/sys/_types/_fd_isset.h"
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/ZIPFoundation/Swift Compatibility Header/ZIPFoundation-Swift.h"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/Toast-Swift/Swift Compatibility Header/Toast_Swift-Swift.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/ModelIO.framework/Headers/MDLLight.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SCNLight.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKEffectPropertyLight.h"
@@ -2410,6 +2413,7 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Modules/module.modulemap"
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/Alamofire/Alamofire.modulemap"
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/ZIPFoundation/ZIPFoundation.modulemap"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/Toast-Swift/Toast_Swift.modulemap"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"

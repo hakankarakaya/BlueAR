@@ -1,10 +1,10 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.6 clang-1100.0.32.1)"
-options: "7d6ac8a353c766adc592f75272689952"
-build_time: [1567355435, 186583000]
+options: "13d61eabcd257cb379967364e38cf38e"
+build_time: [1567374452, 702996000]
 inputs:
   "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/ScanViewManager.swift": [1567349159, 175704490]
   "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Enums.swift": [1567348668, 428398402]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/ScanView.swift": [1567354953, 246181899]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/DownloadManager.swift": [1567349054, 387335774]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Intermediates.noindex/BlueAR.build/Debug-iphoneos/BlueAR.build/DerivedSources/CoreMLGenerated/MobileNet/MobileNet.swift": [1567352128, 873206967]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Intermediates.noindex/BlueAR.build/Debug-iphoneos/BlueAR.build/DerivedSources/CoreMLGenerated/HandModel/HandModel.swift": [1567352128, 871894868]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/ScanView.swift": [1567371568, 83543937]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/DownloadManager.swift": [1567371435, 836242755]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Intermediates.noindex/BlueAR.build/Debug-iphoneos/BlueAR.build/DerivedSources/CoreMLGenerated/MobileNet/MobileNet.swift": [1567374452, 691758359]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Intermediates.noindex/BlueAR.build/Debug-iphoneos/BlueAR.build/DerivedSources/CoreMLGenerated/HandModel/HandModel.swift": [1567374452, 671730798]
