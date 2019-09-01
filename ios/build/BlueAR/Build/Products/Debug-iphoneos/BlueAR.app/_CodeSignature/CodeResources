@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		0qubcEF/ASZLLbLLNWGTlZE8nMQ=
+		4+xrONVzH4VcLzZ5qP9aGp9yRVI=
 		</data>
 		<key>FontAwesome.ttf</key>
 		<data>
@@ -195,11 +195,11 @@
 		</data>
 		<key>PlugIns/BlueARTests.xctest.dSYM/Contents/Resources/DWARF/BlueARTests</key>
 		<data>
-		kvmM+OgFlPCe7/lLzW2s8fsqt4Y=
+		XSBfHl7aGZPKKDeHMAbKE89+94s=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<data>
-		9vk1PTuJSSZe2hRKv6b/fVPKpAA=
+		YyfCZ4sXl3T6UOp2rgf9dNu3Iyk=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
 		<data>
@@ -211,11 +211,11 @@
 		</data>
 		<key>ScanView.nib</key>
 		<data>
-		1h/sTRQaDMPa0cqWSAEb/Tc5a2E=
+		jKe67SFW/XrKPgLjajMEFX3+TOk=
 		</data>
 		<key>art.scnassets/.DS_Store</key>
 		<data>
-		2fpd7NvQNL5BgxOABJ2uizae2NU=
+		EsbOQLL1/QhO4yG16rBUyTCBJ4U=
 		</data>
 		<key>art.scnassets/bottle.dae</key>
 		<data>
@@ -387,11 +387,11 @@
 		</data>
 		<key>ip.txt</key>
 		<data>
-		YlHqgbVAtkrNuB7532DbVccuOGE=
+		vJbWyU3WjCexoDYbgIT6lBGQ2Dg=
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		zBtvUdi/9zMT3FqJVbAwaKZ9ajY=
+		WYbuUTM99JFFCMSOkvpEydF8BjI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -400,7 +400,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R4TruFcDc0uTpPDSsJZLmXYd4t7p+EmD7AU2N9xpUpE=
+			NRlaJ8Z2j/LLNhhqer6/GqDoemVj6yEPxNg2Vkj4ths=
 			</data>
 		</dict>
 		<key>FontAwesome.ttf</key>
@@ -710,14 +710,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7hHGwdIARg/QCWlnxDqzCG4ZbomAMIrTqMqTj1X874A=
+			iN0NEjB24yQWIXXwgezhWd3Ddvq4x6XpOku7vxXuUe0=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g2S8XK/aRmkqZ69Ksz0UpMR9Z1lAh8OJLCopgPdRBwU=
+			HWYVwr41eW3xezDN9ngacyYlUZ/pkTglDMepP5Kfpbo=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
@@ -738,7 +738,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7Jpz54TmkPIsmOYY5TaFcKfzWdRWKWWJphGb9lzhKmQ=
+			6nvmdtX3bDU23iORXB23kIT80Y9nN92WYl3ep4j1+Wc=
 			</data>
 		</dict>
 		<key>art.scnassets/bottle.dae</key>
@@ -1039,14 +1039,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0CWdig6oqr8W7maocwJvY5mM2lmstgUEtVpK41B1+vw=
+			KTVqL6G7RNEyp+JXQhd9AjpTm9Y6jNfrmdiQf1CAYGE=
 			</data>
 		</dict>
 		<key>main.jsbundle</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SH9M0ztgvmSJJf8yoENTXTd64D8XwiogfkB3HN8Yw50=
+			xQRBKn0m7pTJW8L64Ut67LKJC7Mxd6ayE7+70WCf3Is=
 			</data>
 		</dict>
 	</dict>

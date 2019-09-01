@@ -8,17 +8,12 @@
 
 import React, { Component } from "react";
 import {
-  Platform,
   StyleSheet,
-  Text,
-  Button,
-  View,
-  TouchableOpacity,
-  TouchableHighlight
+  View
 } from "react-native";
 
-import ScanView from "./ScanView";
-import OverlayMenuView from "./OverlayMenuView";
+import ScanView from "./src/nativeViews/ScanView";
+import OverlayMenuView from "./src/containers/OverlayMenuView";
 
 console.disableYellowBox = true;
 
@@ -40,27 +35,16 @@ export default class App extends Component {
   };
   onWallpaperSelected = item => {
     console.log("onWallpaperSelected");
-    this.objectRef.updateWallpaperTexture(item.id, item.wallpaperURL);
+    this.objectRef.addWallpaperTexture(item.id, item.wallpaperURL);
   };
   onCharacterAnimationSelected = item => {
     console.log("onCharacterAnimationSelected");
     this.objectRef.addCharacterAnimation(item.id, item.animationURL);
   };
 
-  // updateNative = () => {
-  //   this.objectRef.objectSelected("Wallpaper3");
-  // };
-
   render() {
     return (
       <View style={styles.container}>
-        {/* <TouchableOpacity
-          style={[styles.wrapper, styles.border]}
-          onPress={this.updateNative}
-          onLongPress={this.updateNative}
-        >
-        </TouchableOpacity> */}
-
         <ScanView
           style={styles.fullScreenContainer}
           onSurfaceDetected={this.surfaceDetected}

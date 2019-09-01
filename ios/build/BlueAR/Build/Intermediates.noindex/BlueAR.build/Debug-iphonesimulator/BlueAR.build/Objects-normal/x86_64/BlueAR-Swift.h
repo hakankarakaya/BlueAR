@@ -183,6 +183,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import ARKit;
 @import CoreGraphics;
+@import ObjectiveC;
 @import SceneKit;
 @import UIKit;
 #endif
@@ -204,6 +205,12 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
+SWIFT_CLASS("_TtC6BlueAR15DownloadManager")
+@interface DownloadManager : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class ARSCNView;
 @class NSCoder;
 @class NSString;
@@ -219,7 +226,7 @@ SWIFT_CLASS("_TtC6BlueAR8ScanView")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (void)addHorizontalSurfaceModelWithIdentifier:(NSString * _Nonnull)id modelURL:(NSString * _Nonnull)url;
 - (void)addPlanetModelWithIdentifier:(NSString * _Nonnull)id modelURL:(NSString * _Nonnull)url;
-- (void)updateWallpaperTextureWithIdentifier:(NSString * _Nonnull)id wallpaperURL:(NSString * _Nonnull)wallpaperURL;
+- (void)addWallpaperTextureWithIdentifier:(NSString * _Nonnull)id wallpaperURL:(NSString * _Nonnull)wallpaperURL;
 - (void)addCharacterAnimationWithIdentifier:(NSString * _Nonnull)id animationURL:(NSString * _Nonnull)animationURL;
 - (void)touchesBegan:(NSSet<UITouch *> * _Nonnull)touches withEvent:(UIEvent * _Nullable)event;
 @end
@@ -244,7 +251,7 @@ SWIFT_CLASS_NAMED("ScanViewManager")
 + (BOOL)requiresMainQueueSetup SWIFT_WARN_UNUSED_RESULT;
 - (void)addHorizontalSurfaceModel:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)identifier modelURL:(NSString * _Nonnull)modelURL;
 - (void)addPlanetModel:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id modelURL:(NSString * _Nonnull)modelURL;
-- (void)updateWallpaperTexture:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id wallpaperURL:(NSString * _Nonnull)wallpaperURL;
+- (void)addWallpaperTexture:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id wallpaperURL:(NSString * _Nonnull)wallpaperURL;
 - (void)addCharacterAnimation:(NSNumber * _Nonnull)node identifier:(NSString * _Nonnull)id animationURL:(NSString * _Nonnull)animationURL;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end

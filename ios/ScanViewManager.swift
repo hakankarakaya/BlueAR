@@ -37,12 +37,12 @@ class ScanViewManager: RCTViewManager {
     }
   }
   
-  @objc func updateWallpaperTexture(_ node: NSNumber, identifier id: NSString, wallpaperURL: NSString) {
+  @objc func addWallpaperTexture(_ node: NSNumber, identifier id: NSString, wallpaperURL: NSString) {
     DispatchQueue.main.async {
       let component = self.bridge.uiManager.view(
         forReactTag: node
       ) as! ScanView
-      component.updateWallpaperTexture(identifier: id, wallpaperURL: wallpaperURL)
+      component.addWallpaperTexture(identifier: id, wallpaperURL: wallpaperURL)
     }
   }
   

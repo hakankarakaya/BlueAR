@@ -23,35 +23,3 @@ enum SurfaceType: String, CaseIterable {
     }
   }
 }
-
-enum HorizontalSurfaceModel: String, CaseIterable {
-  case Glass = "Glass"
-  case Bottle = "Bottle"
-  
-  var modelSourceString : String {
-    switch self {
-    case .Glass: return "art.scnassets/glass.dae"
-    case .Bottle: return "art.scnassets/bottle.dae"
-    }
-  }
-  
-  static func stringToHorizontalSurfaceModel(_ string: String) -> HorizontalSurfaceModel? {
-    return self.allCases.first{ "\($0)".lowercased() == string.lowercased() }
-  }
-}
-
-enum PlanetModel: String, CaseIterable {
-  case Earth = "Earth"
-  case Moon = "Moon"
-  
-  var modelSourceString : String {
-    switch self {
-    case .Earth: return "art.scnassets/earth.dae"
-    case .Moon: return "art.scnassets/moon.dae"
-    }
-  }
-  
-  static func stringToPlanetModel(_ string: String) -> PlanetModel? {
-    return self.allCases.first{ "\($0)".lowercased() == string.lowercased() }
-  }
-}
