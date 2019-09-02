@@ -4,9 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		LLuWERRrblK0+ZDEG+Mz3sec4kc=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		YGjJOZWGeMedBNhKZdMJCOqobYc=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		uav4oXc29xUF4whgEldwLwRfLAU=
+		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		UNKatK2YTqgkVOLlaCWPcZ7UiM8=
+		t8cphAlD78V2DVqmMQZ6ZozCrJU=
 		</data>
 		<key>FontAwesome.ttf</key>
 		<data>
@@ -159,7 +171,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		c5IU+Y94ozAyLSScxe8f+NzhnVQ=
+		pL8ClfLOrvG850JKPO7cCuaFSPU=
 		</data>
 		<key>MobileNet.mlmodelc/coremldata.bin</key>
 		<data>
@@ -199,7 +211,7 @@
 		</data>
 		<key>PlugIns/BlueARTests.xctest/BlueARTests</key>
 		<data>
-		jKf24HYGsGUqAYQ8hZxzUy1D644=
+		gYkP/d7lkGuc5+fplJUJOLjPBsY=
 		</data>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
 		<data>
@@ -211,11 +223,11 @@
 		</data>
 		<key>ScanView.nib</key>
 		<data>
-		sgaISwJ6zrOytZ/XruFepQ/Dkvw=
+		0EQi35jw6gQbgxOlK8BXgRh4TBE=
 		</data>
 		<key>art.scnassets/.DS_Store</key>
 		<data>
-		EsbOQLL1/QhO4yG16rBUyTCBJ4U=
+		JQgNJthWMHB8072aCK/YkLwGflk=
 		</data>
 		<key>art.scnassets/MoonColorMap.png</key>
 		<data>
@@ -395,20 +407,41 @@
 		</data>
 		<key>ip.txt</key>
 		<data>
-		YlHqgbVAtkrNuB7532DbVccuOGE=
+		vJbWyU3WjCexoDYbgIT6lBGQ2Dg=
 		</data>
 		<key>main.jsbundle</key>
 		<data>
-		k6yb2BIkHy440qhndZ8MPXHnUwo=
+		6zRsqhGGKYYco6taVy+W7PaIjBw=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0rKANAQ9SBzYyMOEF7C/nq1PNHlmcsRPJEjIgJgLXjU=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mvPrRIHP9uVXkEux0JwM/UrfD7uL3zstft26Abmxyns=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/0pYB+Uh6WoZb72yaNjFSQvoG3LfLoLEunvdnCyH89k=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c4P/RUIRBTRVG4tCo0QLvkIWQWgPt9RJWzNadm1DxjY=
+			XgAjZgUMoIDFkTZ34WZ8HFtecwvMZtaPh7XpANDnLqU=
 			</data>
 		</dict>
 		<key>FontAwesome.ttf</key>
@@ -725,7 +758,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1CvKi88eTRWAj/+C6njjHCwt5xdoqy84IshhsQ1Kzn0=
+			KIjXYcWq0oP3P8aFrizaJIffJTjMNqnb66Di7EXIyiU=
 			</data>
 		</dict>
 		<key>PlugIns/BlueARTests.xctest/Info.plist</key>
@@ -746,7 +779,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1OnYpufy9u5qrexTlMp5wn2/nwPL2Jg58LpbPV7dg8k=
+			vCJwBJ7iFX5DTFaffd2ZmJQSVZuK8N25lfDNfUrGmaY=
 			</data>
 		</dict>
 		<key>art.scnassets/MoonColorMap.png</key>
@@ -1061,14 +1094,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0CWdig6oqr8W7maocwJvY5mM2lmstgUEtVpK41B1+vw=
+			KTVqL6G7RNEyp+JXQhd9AjpTm9Y6jNfrmdiQf1CAYGE=
 			</data>
 		</dict>
 		<key>main.jsbundle</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sgpm5IFcB3OSzkmpfQea2ToCwwpjomc63qCzHxAkco0=
+			NMhlIVzG8XvpkQ9xhz8sYhyIj0McPEdiBDGjhcxcWLo=
 			</data>
 		</dict>
 	</dict>

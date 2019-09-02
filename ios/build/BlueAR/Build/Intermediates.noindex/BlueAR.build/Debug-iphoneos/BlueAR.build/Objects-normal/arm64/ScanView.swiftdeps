@@ -19,7 +19,6 @@ provides-dynamic-lookup:
 - "sessionWasInterrupted"
 depends-top-level:
 - !private "!="
-- !private "+"
 - !private "-"
 - !private "/"
 - !private "=="
@@ -906,7 +905,6 @@ depends-member:
 - !private ["SQ", "x"]
 - !private ["SQ", "y"]
 - !private ["SQ", "z"]
-- !private ["s5ErrorP", "localizedDescription"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "featurePoint"]
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
@@ -3369,7 +3367,6 @@ depends-nominal:
 - !private "6BlueAR15DownloadManagerC"
 - "SE"
 - "SQ"
-- !private "s5ErrorP"
 - "s25ExpressibleByArrayLiteralP"
 - "s30ExpressibleByDictionaryLiteralP"
 - !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
@@ -5209,4 +5206,4 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "bf388bb43ec37f69b9de60355e7a0522"
+interface-hash: "7f528cac31add18b421e720c198ea92a"

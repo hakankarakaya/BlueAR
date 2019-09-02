@@ -196,13 +196,6 @@
 			name = BlueAR;
 			sourceTree = "<group>";
 		};
-		1577ADE40E204B25A0863035 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		1F4D4E629058CCD5DC332377 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,7 +324,6 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				1F4D4E629058CCD5DC332377 /* Pods */,
-				1577ADE40E204B25A0863035 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";

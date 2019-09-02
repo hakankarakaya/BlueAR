@@ -21,7 +21,7 @@ class ScanView: UIView {
   
   // COREML
   var visionRequests = [VNRequest]()
-  let dispatchQueueML = DispatchQueue(label: "com.hw.dispatchqueueml") // A Serial Queue
+  let dispatchQueueML = DispatchQueue(label: "vision") // A Serial Queue
   
   // React Native send event
   @objc var onSurfaceDetected: RCTDirectEventBlock?

@@ -150,7 +150,7 @@ export default class OverlayMenuView extends Component {
                                 <Icon
                                     ref={e => (this.planetModelIcon = e)}
                                     type="FontAwesome"
-                                    name='globe'
+                                    name='hand-paper-o'
                                     style={styles.btnIcon} />
                             </View>
                         </View>
