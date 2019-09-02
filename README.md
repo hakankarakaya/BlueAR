@@ -41,12 +41,12 @@ The working structure of the application
 ---
 
 - Object data is retrieved via Firebase DB.
-- Selected objects and skins are downloaded via Firebase Storage as a Zip file.
-- Downloaded objects and overlay files are displayed on the screen.
+- Selected object and texture are downloaded via Firebase Storage as a Zip file.
+- Downloaded object and texture files are displayed on the screen.
 - Hand recognition is detected by the CoreML model embedded in the application.
 
 Notes: Only "obj" model is supported. It can be changed from within the DownloadManager file.
-I haven't found a plugin that works properly yet. I couldn't run [AssimpKit](https://github.com/dmsurti/AssimpKit) in my project.
+I haven't found a “fbx” plugin that works properly yet. I couldn't run [AssimpKit](https://github.com/dmsurti/AssimpKit) in my project.
 
 Author
 ---
