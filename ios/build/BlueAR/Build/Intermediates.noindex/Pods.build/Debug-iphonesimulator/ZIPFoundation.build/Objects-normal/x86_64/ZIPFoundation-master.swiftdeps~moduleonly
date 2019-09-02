@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.6 clang-1100.0.32.1)"
+options: "511195311717a5eb6d56bd6254fa4337"
+build_time: [1567327496, 558844000]
+inputs:
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/ZIPFoundation/Sources/ZIPFoundation/Archive+Reading.swift": [1567325826, 475018040]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/ZIPFoundation/Sources/ZIPFoundation/Archive+Writing.swift": [1567325826, 475533353]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/ZIPFoundation/Sources/ZIPFoundation/Archive.swift": [1567325826, 474818930]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/ZIPFoundation/Sources/ZIPFoundation/Data+Compression.swift": [1567325826, 475373128]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/ZIPFoundation/Sources/ZIPFoundation/Data+Serialization.swift": [1567325826, 475702032]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/ZIPFoundation/Sources/ZIPFoundation/Entry.swift": [1567325826, 475205788]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/ZIPFoundation/Sources/ZIPFoundation/FileManager+ZIP.swift": [1567325826, 475947537]

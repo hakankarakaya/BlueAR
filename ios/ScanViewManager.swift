@@ -19,30 +19,39 @@ class ScanViewManager: RCTViewManager {
     return true
   }
   
-  @objc func addHorizontalSurfaceModel(_ node: NSNumber, identifier id: NSString) {
+  @objc func addHorizontalSurfaceModel(_ node: NSNumber, identifier: NSString, modelURL: NSString) {
     DispatchQueue.main.async {
       let component = self.bridge.uiManager.view(
         forReactTag: node
       ) as! ScanView
-      component.addHorizontalSurfaceModel(identifier: id)
+      component.addHorizontalSurfaceModel(identifier: identifier, modelURL: modelURL)
     }
   }
   
-  @objc func addPlanet(_ node: NSNumber, identifier id: NSString) {
+  @objc func addPlanetModel(_ node: NSNumber, identifier id: NSString, modelURL: NSString) {
     DispatchQueue.main.async {
       let component = self.bridge.uiManager.view(
         forReactTag: node
       ) as! ScanView
-      component.addPlanet(identifier: id)
+      component.addPlanetModel(identifier: id, modelURL: modelURL)
     }
   }
   
-  @objc func updateWallpaperTexture(_ node: NSNumber, identifier id: NSString) {
+  @objc func addWallpaperTexture(_ node: NSNumber, identifier id: NSString, wallpaperURL: NSString) {
     DispatchQueue.main.async {
       let component = self.bridge.uiManager.view(
         forReactTag: node
       ) as! ScanView
-      component.updateWallpaperTexture(identifier: id)
+      component.addWallpaperTexture(identifier: id, wallpaperURL: wallpaperURL)
+    }
+  }
+  
+  @objc func addCharacterAnimation(_ node: NSNumber, identifier id: NSString, animationURL: NSString) {
+    DispatchQueue.main.async {
+      let component = self.bridge.uiManager.view(
+        forReactTag: node
+      ) as! ScanView
+      component.addCharacterAnimation(identifier: id, animationURL: animationURL)
     }
   }
 }

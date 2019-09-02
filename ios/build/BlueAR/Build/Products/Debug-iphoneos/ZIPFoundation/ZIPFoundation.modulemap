@@ -1,0 +1,12 @@
+module ZIPFoundation {
+  umbrella header "ZIPFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module ZIPFoundation.Swift {
+  header "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphoneos/ZIPFoundation/Swift Compatibility Header/ZIPFoundation-Swift.h"
+  requires objc
+}

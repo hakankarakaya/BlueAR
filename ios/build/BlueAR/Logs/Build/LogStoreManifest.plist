@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1F98058F-86D6-4855-87C9-944EDE3FF515</key>
+		<key>85895EB2-FC99-4A9F-914B-09A26B79CBB6</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,13 +15,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1F98058F-86D6-4855-87C9-944EDE3FF515.xcactivitylog</string>
+			<string>85895EB2-FC99-4A9F-914B-09A26B79CBB6.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>BlueAR project</string>
@@ -32,13 +32,13 @@
 			<key>signature</key>
 			<string>Building workspace BlueAR with scheme BlueAR and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>588949670.78835595</real>
+			<real>589065532.13510799</real>
 			<key>timeStoppedRecording</key>
-			<real>588949673.69727802</real>
+			<real>589065565.85491598</real>
 			<key>title</key>
 			<string>Building workspace BlueAR with scheme BlueAR and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>1F98058F-86D6-4855-87C9-944EDE3FF515</string>
+			<string>85895EB2-FC99-4A9F-914B-09A26B79CBB6</string>
 		</dict>
 	</dict>
 </dict>

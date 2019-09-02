@@ -1,0 +1,6 @@
+module Pods_BlueAR {
+  umbrella header "Pods-BlueAR-umbrella.h"
+
+  export *
+  module * { export * }
+}

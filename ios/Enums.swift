@@ -12,64 +12,14 @@ enum SurfaceType: String, CaseIterable {
   case Horizontal = "Horizontal"
   case Vertical = "Vertical"
   case Hand = "Hand"
+  case None = "None"
   
   var reactEnumString : String {
     switch self {
     case .Horizontal: return "Horizontal"
     case .Vertical: return "Vertical"
     case .Hand: return "Hand"
+    case .None: return "None"
     }
-  }
-}
-
-enum WallpaperTexture: String, CaseIterable {
-  case Wallpaper1 = "Wallpaper1"
-  case Wallpaper2 = "Wallpaper2"
-  case Wallpaper3 = "Wallpaper3"
-  case Wallpaper4 = "Wallpaper4"
-  
-  var imageSourceString : String {
-    switch self {
-    case .Wallpaper1: return "art.scnassets/wallpaper_textures/wallpaper1.jpg"
-    case .Wallpaper2: return "art.scnassets/wallpaper_textures/wallpaper2.jpg"
-    case .Wallpaper3: return "art.scnassets/wallpaper_textures/wallpaper3.jpeg"
-    case .Wallpaper4: return "art.scnassets/wallpaper_textures/wallpaper4.jpg"
-    }
-  }
-  
-  static func stringToWallpaperTexture(_ string: String) -> WallpaperTexture? {
-    return self.allCases.first{ "\($0)".lowercased() == string.lowercased() }
-  }
-}
-
-enum HorizontalSurfaceModel: String, CaseIterable {
-  case Glass = "Glass"
-  case Bottle = "Bottle"
-  
-  var modelSourceString : String {
-    switch self {
-    case .Glass: return "art.scnassets/glass.dae"
-    case .Bottle: return "art.scnassets/bottle.dae"
-    }
-  }
-  
-  static func stringToHorizontalSurfaceModel(_ string: String) -> HorizontalSurfaceModel? {
-    return self.allCases.first{ "\($0)".lowercased() == string.lowercased() }
-  }
-}
-
-enum PlanetModel: String, CaseIterable {
-  case Earth = "Earth"
-  case Moon = "Moon"
-  
-  var modelSourceString : String {
-    switch self {
-    case .Earth: return "art.scnassets/earth.dae"
-    case .Moon: return "art.scnassets/moon.dae"
-    }
-  }
-  
-  static func stringToPlanetModel(_ string: String) -> PlanetModel? {
-    return self.allCases.first{ "\($0)".lowercased() == string.lowercased() }
   }
 }

@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.6 clang-1100.0.32.1)"
+options: "636cbb7ffd9a9cceee636fc5c78eb302"
+build_time: [1567327486, 971082000]
+inputs:
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/AFError.swift": [1567325558, 814144441]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/Alamofire.swift": [1567325558, 814706606]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1567325558, 813650603]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/MultipartFormData.swift": [1567325558, 813266778]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1567325558, 813415167]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/Notifications.swift": [1567325558, 814429863]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/ParameterEncoding.swift": [1567325558, 813973547]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/Request.swift": [1567325558, 814863168]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/Response.swift": [1567325558, 814560364]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/ResponseSerialization.swift": [1567325558, 815311303]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/Result.swift": [1567325558, 813815527]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1567325558, 815478094]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/SessionDelegate.swift": [1567325558, 815643025]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/SessionManager.swift": [1567325558, 815115554]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/TaskDelegate.swift": [1567325558, 813047510]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/Timeline.swift": [1567325558, 813532697]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Alamofire/Source/Validation.swift": [1567325558, 814310655]

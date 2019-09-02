@@ -27,6 +27,12 @@ target 'BlueAR' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+  
+  pod 'Alamofire' # Alamofire is an HTTP networking library
+  pod 'ZIPFoundation', '~> 0.9' # Read and modify ZIP archive files.
+  pod 'Toast-Swift', '~> 5.0.0'
+
   target 'BlueARTests' do
     inherit! :search_paths
     # Pods for testing

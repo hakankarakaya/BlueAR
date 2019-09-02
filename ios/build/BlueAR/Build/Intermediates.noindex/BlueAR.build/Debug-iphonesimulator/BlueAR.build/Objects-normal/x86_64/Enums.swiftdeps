@@ -1,53 +1,29 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "SurfaceType"
-- "WallpaperTexture"
-- "HorizontalSurfaceModel"
-- "PlanetModel"
 provides-nominal:
 - "6BlueAR11SurfaceTypeO"
-- "6BlueAR16WallpaperTextureO"
-- "6BlueAR22HorizontalSurfaceModelO"
-- "6BlueAR11PlanetModelO"
 provides-member:
 - ["6BlueAR11SurfaceTypeO", ""]
-- ["6BlueAR16WallpaperTextureO", ""]
-- ["6BlueAR22HorizontalSurfaceModelO", ""]
-- ["6BlueAR11PlanetModelO", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - "=="
 - "CaseIterable"
-- "FloatLiteralType"
-- "HorizontalSurfaceModel"
-- "IntegerLiteralType"
-- "PlanetModel"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
 - "String"
 - "StringLiteralType"
 - "SurfaceType"
-- "WallpaperTexture"
 - !private "_findStringSwitchCase"
 - !private "~="
 depends-member:
-- !private ["Sa", "first"]
-- !private ["SK", "first"]
-- !private ["SK", "lowercased"]
-- !private ["s7CVarArgP", "first"]
-- !private ["s7CVarArgP", "lowercased"]
 - ["s12CaseIterableP", "=="]
 - ["s12CaseIterableP", "AllCases"]
-- ["s12CaseIterableP", "Bottle"]
-- ["s12CaseIterableP", "Earth"]
-- ["s12CaseIterableP", "Glass"]
 - ["s12CaseIterableP", "Hand"]
 - ["s12CaseIterableP", "Horizontal"]
-- ["s12CaseIterableP", "Moon"]
+- ["s12CaseIterableP", "None"]
 - ["s12CaseIterableP", "RawValue"]
 - ["s12CaseIterableP", "Vertical"]
-- ["s12CaseIterableP", "Wallpaper1"]
-- ["s12CaseIterableP", "Wallpaper2"]
-- ["s12CaseIterableP", "Wallpaper3"]
-- ["s12CaseIterableP", "Wallpaper4"]
 - ["s12CaseIterableP", ""]
 - ["s12CaseIterableP", "_Default_AllCases"]
 - ["s12CaseIterableP", "_Default_RawValue"]
@@ -58,150 +34,47 @@ depends-member:
 - ["s12CaseIterableP", "hashValue"]
 - ["s12CaseIterableP", "init"]
 - ["s12CaseIterableP", "rawValue"]
-- !private ["Sl", "first"]
-- !private ["Sl", "lowercased"]
-- !private ["SL", "lowercased"]
-- !private ["10Foundation15ContiguousBytesP", "first"]
-- !private ["s28CustomDebugStringConvertibleP", "first"]
-- !private ["s28CustomDebugStringConvertibleP", "lowercased"]
-- !private ["s17CustomReflectableP", "first"]
-- !private ["s17CustomReflectableP", "lowercased"]
-- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
-- !private ["s23CustomStringConvertibleP", "appendLiteral"]
-- !private ["s23CustomStringConvertibleP", "first"]
-- !private ["s23CustomStringConvertibleP", "lowercased"]
-- !private ["10Foundation12DataProtocolP", "first"]
-- !private ["Se", "first"]
-- !private ["Se", "lowercased"]
-- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
-- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
-- !private ["SE", "first"]
-- !private ["SE", "lowercased"]
 - ["SQ", "=="]
 - ["SQ", "AllCases"]
-- ["SQ", "Bottle"]
-- ["SQ", "Earth"]
-- ["SQ", "Glass"]
 - ["SQ", "Hand"]
 - ["SQ", "Horizontal"]
-- ["SQ", "Moon"]
+- ["SQ", "None"]
 - ["SQ", "RawValue"]
 - ["SQ", "Vertical"]
-- ["SQ", "Wallpaper1"]
-- ["SQ", "Wallpaper2"]
-- ["SQ", "Wallpaper3"]
-- ["SQ", "Wallpaper4"]
 - ["SQ", ""]
 - ["SQ", "_Default_AllCases"]
 - ["SQ", "_Default_RawValue"]
 - !private ["SQ", "_findStringSwitchCase"]
 - ["SQ", "_rawHashValue"]
 - ["SQ", "allCases"]
-- !private ["SQ", "first"]
 - ["SQ", "hash"]
 - ["SQ", "hashValue"]
 - ["SQ", "init"]
-- !private ["SQ", "lowercased"]
 - ["SQ", "rawValue"]
-- !private ["s25ExpressibleByArrayLiteralP", "first"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "lowercased"]
-- !private ["s32ExpressibleByStringInterpolationP", "lowercased"]
-- !private ["s26ExpressibleByStringLiteralP", "lowercased"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "lowercased"]
 - ["SH", "=="]
 - ["SH", "AllCases"]
-- ["SH", "Bottle"]
-- ["SH", "Earth"]
-- ["SH", "Glass"]
 - ["SH", "Hand"]
 - ["SH", "Horizontal"]
-- ["SH", "Moon"]
+- ["SH", "None"]
 - ["SH", "RawValue"]
 - ["SH", "Vertical"]
-- ["SH", "Wallpaper1"]
-- ["SH", "Wallpaper2"]
-- ["SH", "Wallpaper3"]
-- ["SH", "Wallpaper4"]
 - ["SH", ""]
 - ["SH", "_Default_AllCases"]
 - ["SH", "_Default_RawValue"]
 - !private ["SH", "_findStringSwitchCase"]
 - ["SH", "_rawHashValue"]
 - ["SH", "allCases"]
-- !private ["SH", "first"]
 - ["SH", "hash"]
 - ["SH", "hashValue"]
 - ["SH", "init"]
-- !private ["SH", "lowercased"]
 - ["SH", "rawValue"]
-- ["6BlueAR22HorizontalSurfaceModelO", "=="]
-- ["6BlueAR22HorizontalSurfaceModelO", "AllCases"]
-- ["6BlueAR22HorizontalSurfaceModelO", "Bottle"]
-- ["6BlueAR22HorizontalSurfaceModelO", "Glass"]
-- ["6BlueAR22HorizontalSurfaceModelO", "HorizontalSurfaceModel"]
-- ["6BlueAR22HorizontalSurfaceModelO", "RawValue"]
-- ["6BlueAR22HorizontalSurfaceModelO", "String"]
-- ["6BlueAR22HorizontalSurfaceModelO", "_Default_AllCases"]
-- ["6BlueAR22HorizontalSurfaceModelO", "_Default_RawValue"]
-- !private ["6BlueAR22HorizontalSurfaceModelO", "_findStringSwitchCase"]
-- ["6BlueAR22HorizontalSurfaceModelO", "_rawHashValue"]
-- ["6BlueAR22HorizontalSurfaceModelO", "allCases"]
-- ["6BlueAR22HorizontalSurfaceModelO", "deinit"]
-- ["6BlueAR22HorizontalSurfaceModelO", "hash"]
-- ["6BlueAR22HorizontalSurfaceModelO", "hashValue"]
-- ["6BlueAR22HorizontalSurfaceModelO", "init"]
-- ["6BlueAR22HorizontalSurfaceModelO", "modelSourceString"]
-- ["6BlueAR22HorizontalSurfaceModelO", "rawValue"]
-- ["6BlueAR22HorizontalSurfaceModelO", "stringToHorizontalSurfaceModel"]
-- !private ["s25LosslessStringConvertibleP", "lowercased"]
-- !private ["s10MirrorPathP", "lowercased"]
-- !private ["SM", "first"]
-- !private ["10Foundation19MutableDataProtocolP", "first"]
-- !private ["So8NSCodingP", "lowercased"]
-- !private ["So9NSCopyingP", "lowercased"]
-- !private ["So21NSItemProviderReadingP", "lowercased"]
-- !private ["So21NSItemProviderWritingP", "lowercased"]
-- !private ["So16NSMutableCopyingP", "lowercased"]
-- !private ["So8NSObjectC", "lowercased"]
-- !private ["So8NSObjectP", "lowercased"]
-- !private ["So14NSSecureCodingP", "lowercased"]
-- !private ["So8NSStringC", "lowercased"]
-- ["6BlueAR11PlanetModelO", "=="]
-- ["6BlueAR11PlanetModelO", "AllCases"]
-- ["6BlueAR11PlanetModelO", "Earth"]
-- ["6BlueAR11PlanetModelO", "Moon"]
-- ["6BlueAR11PlanetModelO", "PlanetModel"]
-- ["6BlueAR11PlanetModelO", "RawValue"]
-- ["6BlueAR11PlanetModelO", "String"]
-- ["6BlueAR11PlanetModelO", "_Default_AllCases"]
-- ["6BlueAR11PlanetModelO", "_Default_RawValue"]
-- !private ["6BlueAR11PlanetModelO", "_findStringSwitchCase"]
-- ["6BlueAR11PlanetModelO", "_rawHashValue"]
-- ["6BlueAR11PlanetModelO", "allCases"]
-- ["6BlueAR11PlanetModelO", "deinit"]
-- ["6BlueAR11PlanetModelO", "hash"]
-- ["6BlueAR11PlanetModelO", "hashValue"]
-- ["6BlueAR11PlanetModelO", "init"]
-- ["6BlueAR11PlanetModelO", "modelSourceString"]
-- ["6BlueAR11PlanetModelO", "rawValue"]
-- ["6BlueAR11PlanetModelO", "stringToPlanetModel"]
-- !private ["Sk", "first"]
-- !private ["Sm", "first"]
-- !private ["Sm", "lowercased"]
 - ["SY", "=="]
 - ["SY", "AllCases"]
-- ["SY", "Bottle"]
-- ["SY", "Earth"]
-- ["SY", "Glass"]
 - ["SY", "Hand"]
 - ["SY", "Horizontal"]
-- ["SY", "Moon"]
+- ["SY", "None"]
 - ["SY", "RawValue"]
 - ["SY", "Vertical"]
-- ["SY", "Wallpaper1"]
-- ["SY", "Wallpaper2"]
-- ["SY", "Wallpaper3"]
-- ["SY", "Wallpaper4"]
 - ["SY", ""]
 - ["SY", "_Default_AllCases"]
 - ["SY", "_Default_RawValue"]
@@ -212,16 +85,11 @@ depends-member:
 - ["SY", "hashValue"]
 - ["SY", "init"]
 - ["SY", "rawValue"]
-- !private ["ST", "first"]
-- !private ["ST", "lowercased"]
-- !private ["SS", "lowercased"]
-- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
-- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
-- !private ["Sy", "lowercased"]
 - ["6BlueAR11SurfaceTypeO", "=="]
 - ["6BlueAR11SurfaceTypeO", "AllCases"]
 - ["6BlueAR11SurfaceTypeO", "Hand"]
 - ["6BlueAR11SurfaceTypeO", "Horizontal"]
+- ["6BlueAR11SurfaceTypeO", "None"]
 - ["6BlueAR11SurfaceTypeO", "RawValue"]
 - ["6BlueAR11SurfaceTypeO", "String"]
 - ["6BlueAR11SurfaceTypeO", "Vertical"]
@@ -236,104 +104,12 @@ depends-member:
 - ["6BlueAR11SurfaceTypeO", "init"]
 - ["6BlueAR11SurfaceTypeO", "rawValue"]
 - ["6BlueAR11SurfaceTypeO", "reactEnumString"]
-- !private ["s16TextOutputStreamP", "appendInterpolation"]
-- !private ["s16TextOutputStreamP", "appendLiteral"]
-- !private ["s16TextOutputStreamP", "lowercased"]
-- !private ["s20TextOutputStreamableP", "lowercased"]
-- ["6BlueAR16WallpaperTextureO", "=="]
-- ["6BlueAR16WallpaperTextureO", "AllCases"]
-- ["6BlueAR16WallpaperTextureO", "RawValue"]
-- ["6BlueAR16WallpaperTextureO", "String"]
-- ["6BlueAR16WallpaperTextureO", "Wallpaper1"]
-- ["6BlueAR16WallpaperTextureO", "Wallpaper2"]
-- ["6BlueAR16WallpaperTextureO", "Wallpaper3"]
-- ["6BlueAR16WallpaperTextureO", "Wallpaper4"]
-- ["6BlueAR16WallpaperTextureO", "WallpaperTexture"]
-- ["6BlueAR16WallpaperTextureO", "_Default_AllCases"]
-- ["6BlueAR16WallpaperTextureO", "_Default_RawValue"]
-- !private ["6BlueAR16WallpaperTextureO", "_findStringSwitchCase"]
-- ["6BlueAR16WallpaperTextureO", "_rawHashValue"]
-- ["6BlueAR16WallpaperTextureO", "allCases"]
-- ["6BlueAR16WallpaperTextureO", "deinit"]
-- ["6BlueAR16WallpaperTextureO", "hash"]
-- ["6BlueAR16WallpaperTextureO", "hashValue"]
-- ["6BlueAR16WallpaperTextureO", "imageSourceString"]
-- ["6BlueAR16WallpaperTextureO", "init"]
-- ["6BlueAR16WallpaperTextureO", "rawValue"]
-- ["6BlueAR16WallpaperTextureO", "stringToWallpaperTexture"]
-- !private ["s14_ArrayProtocolP", "first"]
-- !private ["s30_CustomPlaygroundQuickLookableP", "lowercased"]
-- !private ["s24_DestructorSafeContainerP", "first"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "lowercased"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "lowercased"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "lowercased"]
-- !private ["s19_HasContiguousBytesP", "first"]
-- !private ["s19_HasContiguousBytesP", "lowercased"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "lowercased"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "lowercased"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "lowercased"]
-- !private ["s21_ObjectiveCBridgeableP", "first"]
-- !private ["s21_ObjectiveCBridgeableP", "lowercased"]
 depends-nominal:
-- !private "Sa"
-- !private "SK"
-- !private "s7CVarArgP"
 - "s12CaseIterableP"
-- !private "Sl"
-- !private "SL"
-- !private "10Foundation15ContiguousBytesP"
-- !private "s28CustomDebugStringConvertibleP"
-- !private "s17CustomReflectableP"
-- !private "s23CustomStringConvertibleP"
-- !private "10Foundation12DataProtocolP"
-- !private "Se"
-- !private "s26DefaultStringInterpolationV"
-- !private "SE"
 - "SQ"
-- !private "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - "SH"
-- "6BlueAR22HorizontalSurfaceModelO"
-- !private "s25LosslessStringConvertibleP"
-- !private "s10MirrorPathP"
-- !private "SM"
-- !private "10Foundation19MutableDataProtocolP"
-- !private "So8NSCodingP"
-- !private "So9NSCopyingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
-- !private "So8NSObjectC"
-- !private "So8NSObjectP"
-- !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
-- "6BlueAR11PlanetModelO"
-- !private "Sk"
-- !private "Sm"
 - "SY"
-- !private "ST"
-- !private "SS"
-- !private "s27StringInterpolationProtocolP"
-- !private "Sy"
 - "6BlueAR11SurfaceTypeO"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
-- "6BlueAR16WallpaperTextureO"
-- !private "s14_ArrayProtocolP"
-- !private "s30_CustomPlaygroundQuickLookableP"
-- !private "s24_DestructorSafeContainerP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s19_HasContiguousBytesP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "10Foundation27_KeyValueCodingAndObservingP"
-- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
-- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
@@ -348,6 +124,7 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/Metal.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/Vision.swiftmodule/x86_64.swiftinterface"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/Compression.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/Foundation.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/AVFoundation.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/CoreFoundation.swiftmodule/x86_64.swiftinterface"
@@ -361,10 +138,34 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/SpriteKit.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftinterface"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreML.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ModelIO.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Vision.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Compression.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/GLKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ARKit.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SceneKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SpriteKit.swiftmodule/x86_64.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/sys/_types/_timeval32.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKVector2.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKVector3.h"
@@ -393,6 +194,8 @@ depends-external:
 - "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Headers/Public/yoga/Yoga.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVPlayerMediaSelectionCriteria.h"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire-umbrella.h"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation-umbrella.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/ModelIO.framework/Headers/MDLCamera.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SCNCamera.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/ARKit.framework/Headers/ARCamera.h"
@@ -938,6 +741,7 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/AVFoundation.framework/Frameworks/AVFAudio.framework/Headers/AVAudioSession.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVAssetExportSession.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVContentKeySession.h"
+- "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/compression.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSExpression.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRegularExpression.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIAccessibilityIdentification.h"
@@ -1705,6 +1509,8 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/NSDataAsset.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIImageAsset.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/sys/_types/_fd_isset.h"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphonesimulator/Alamofire/Swift Compatibility Header/Alamofire-Swift.h"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphonesimulator/ZIPFoundation/Swift Compatibility Header/ZIPFoundation-Swift.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/ModelIO.framework/Headers/MDLLight.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/SceneKit.framework/Headers/SCNLight.h"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/GLKit.framework/Headers/GLKEffectPropertyLight.h"
@@ -1992,6 +1798,8 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/SpriteKit.framework/Modules/module.modulemap"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Modules/module.modulemap"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Modules/module.modulemap"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.modulemap"
+- "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Products/Debug-iphonesimulator/ZIPFoundation/ZIPFoundation.modulemap"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/CoreML.framework/Headers/CoreML.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/ModelIO.framework/Headers/ModelIO.apinotes"
@@ -2017,4 +1825,4 @@ depends-external:
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
 - "/Users/hakankarakaya/Desktop/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d054703c516c6e36f55f15f31fd2a305"
+interface-hash: "7351fee3b08c5b7dc5217b6c37ea641a"
