@@ -235,6 +235,7 @@ SWIFT_CLASS("_TtC6BlueAR8ScanView")
 
 @interface ScanView (SWIFT_EXTENSION(BlueAR)) <ARSCNViewDelegate>
 - (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didAddNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
+- (void)renderer:(id <SCNSceneRenderer> _Nonnull)renderer didRemoveNode:(SCNNode * _Nonnull)node forAnchor:(ARAnchor * _Nonnull)anchor;
 - (void)session:(ARSession * _Nonnull)session didFailWithError:(NSError * _Nonnull)error;
 - (void)sessionWasInterrupted:(ARSession * _Nonnull)session;
 - (void)sessionInterruptionEnded:(ARSession * _Nonnull)session;

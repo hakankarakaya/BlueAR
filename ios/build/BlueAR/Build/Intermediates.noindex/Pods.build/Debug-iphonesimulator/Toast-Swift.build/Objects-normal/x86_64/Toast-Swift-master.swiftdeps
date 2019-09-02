@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1 (swiftlang-1100.0.270.6 clang-1100.0.32.1)"
+options: "5fd1ee99151591b7bb1818b48f4ea6d6"
+build_time: [1567438526, 53187000]
+inputs:
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Pods/Toast-Swift/Toast/Toast.swift": [1567438388, 964447350]

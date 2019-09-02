@@ -1,10 +1,10 @@
 version: "Apple Swift version 5.1 (swiftlang-1100.0.270.6 clang-1100.0.32.1)"
-options: "e00dbeffe81861330f4586bbb216341b"
-build_time: [1567355518, 832032000]
+options: "00df2b9ea3c99ee0a489c404bc1bb160"
+build_time: [1567438539, 558670000]
 inputs:
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/ScanViewManager.swift": [1567349159, 175704490]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Enums.swift": [1567348668, 428398402]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/ScanView.swift": [1567354953, 246181899]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/DownloadManager.swift": [1567349054, 387335774]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Intermediates.noindex/BlueAR.build/Debug-iphonesimulator/BlueAR.build/DerivedSources/CoreMLGenerated/MobileNet/MobileNet.swift": [1567355518, 815682723]
-  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Intermediates.noindex/BlueAR.build/Debug-iphonesimulator/BlueAR.build/DerivedSources/CoreMLGenerated/HandModel/HandModel.swift": [1567355518, 790211312]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/ScanViewManager.swift": [1567438388, 967912185]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/Enums.swift": [1567438388, 942038799]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/ScanView.swift": [1567438388, 967242640]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/DownloadManager.swift": [1567438388, 941645314]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Intermediates.noindex/BlueAR.build/Debug-iphonesimulator/BlueAR.build/DerivedSources/CoreMLGenerated/MobileNet/MobileNet.swift": [1567438539, 545503284]
+  "/Users/hakankarakaya/Documents/Others/MyProjects/BlueAR/ios/build/BlueAR/Build/Intermediates.noindex/BlueAR.build/Debug-iphonesimulator/BlueAR.build/DerivedSources/CoreMLGenerated/HandModel/HandModel.swift": [1567438539, 424163768]
