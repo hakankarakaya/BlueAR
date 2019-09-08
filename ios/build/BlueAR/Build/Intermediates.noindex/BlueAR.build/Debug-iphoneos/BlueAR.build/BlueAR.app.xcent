@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>BS488Y298Y.com.sebit.deneme</string>
+	<string>BS488Y298Y.com.blueeye.system</string>
 	<key>com.apple.developer.team-identifier</key>
 	<string>BS488Y298Y</string>
 	<key>get-task-allow</key>
 	<true/>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>BS488Y298Y.com.sebit.deneme</string>
+		<string>BS488Y298Y.com.blueeye.system</string>
 	</array>
 </dict>
 </plist>
